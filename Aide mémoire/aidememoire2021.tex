@@ -1,0 +1,547 @@
+\documentclass[12pt, a4paper]{book}
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{mathtools}
+\newtheorem*{definition}{Définition}
+\newtheorem*{remarque}{Remarque}
+\newtheorem*{theoreme}{Théorème}
+\newtheorem*{proposition}{Proposition}
+\newtheorem*{preuve}{Preuve}
+\newtheorem*{observation}{Observation}
+\newtheorem*{exemple}{Exemple}
+\renewcommand{\chaptername}{Chapitre}
+
+\setlength{\tabcolsep}{25pt}
+\renewcommand{\arraystretch}{2.3}
+\def\mathLarge#1{\mbox{\LARGE $#1$}}
+
+\title{Aide mémoire 2021}
+\date{\today}
+\author{Léo Bernard}
+
+\begin{document}
+\maketitle
+\tableofcontents
+
+\chapter{Analyse}
+\section{Notions de bases}
+\subsection{Fonction réelle}
+Soit $A$ et $B$ deux sous ensembles de $\mathbb{R}$. On appelle fonction réelle une relation qui lie un élément $x$ de $A$ à un élément y ($f(x)$, la valeur de $f$ en $x$) dans $B$.
+
+\begin{remarque}
+    On appelle $A$ l'ensemble de départ et $B$ l'ensemble d'arrivée.
+\end{remarque}
+\begin{remarque}
+    $x$ est aussi appelé la préimage de $y$ par $f$.
+\end{remarque}
+\begin{remarque}
+L'ensemble des valeurs de $f$ est noté $Im(f)$.
+\end{remarque}
+\begin{remarque}
+    Deux fonctions $f(x)$ et $g(x)$ sont dites égales si elles ont les mêmes ensembles d'arrivée et de départ, et si $f(x) = g(x)\ \ \forall x \in A$.\\
+    On note alors $f = g$.\\
+\end{remarque}
+\subsection{Représentation graphique}
+
+    On représente une fonction en dessinant l'ensemble des points de coordonnées $(a;f(a))$. Ce dessin est appelé \textbf{graphe de $f$}.
+
+\begin{remarque}
+    On appelle le nombre $a$ \textbf{zéro} de $f$ si $f(a)=0$. son ensemble correspond à l'ensemble des points ou le graphe de $f$ intersecte $O_x$
+\end{remarque}
+\newpage
+\subsection{Parité d'une fonction}
+
+    Si $f(-x) = f(x)$ pour tout x de l'ensemble de définiton de $f$, on dit que $f$ est une \textbf{fonction paire}. \\
+    Si $f(-x) = -f(x)$ pour tout x de l'ensemble de définiton de $f$, on dit que $f$ est une \textbf{fonction impaire}. 
+
+\begin{remarque}
+    Le graphe d'une fontion paire est symétrique à l'axe $O_y$, et \\
+    Le graphe d'une fontion impaire est symétrique à l'origine.\\
+\end{remarque}
+
+\subsection{Périodicité d'une fonction}
+    Une fonction est dite de \textbf{période p} si il existe un nombre $p > 0$ tel que $f(x+kp) = f(x) \ \ \forall k \in \mathbb{Z}$\\
+
+    \begin{remarque}
+        Le graphe d'une fonction périodique est un motif qui se répète indéfiniment par translation horizontale (d'amplitude $p$).
+    \end{remarque}
+
+\subsection{Croissance et décroissance d'une fonction}
+
+Pour tout $ x_1, x_2\ \ \in I$ on dit que :
+\begin{itemize}
+    \item  Une fonction $f$ est \textbf{croissante} sur un intervalle $I$ si :
+    \begin{center}
+        $x_1 < x_2 \Rightarrow f(x_1) \leq f(x_2)$
+    \end{center}
+    
+
+    \item  Une fonction $f$ est \textbf{strictement croissante} sur un intervalle $I$ si :
+    \begin{center}
+        $x_1 < x_2 \Rightarrow f(x_1) < f(x_2)$
+    \end{center}
+   
+
+    \item  Une fonction $f$ est \textbf{décroissante} sur un intervalle $I$ si :
+    \begin{center}
+        $x_1 < x_2 \Rightarrow f(x_1) \geq f(x_2)$
+    \end{center}
+   
+
+    \item  Une fonction $f$ est \textbf{strictement décroissante} sur un intervalle $I$ si :
+    \begin{center}
+        $x_1 < x_2 \Rightarrow f(x_1) > f(x_2)$
+    \end{center}
+    
+\end{itemize}
+\newpage
+
+\subsection{Maximum et minimum d'une fonction}
+
+Soit $f : A \rightarrow \mathbb{R}$ une fonction réelle
+\begin{itemize}
+    \item  $f(a)$ est un \textbf{maximum local} de $f$ si il existe un intervalle ouvert $I$ contenant $a$ tel que :
+    \begin{center}
+        $\forall x \in I \cap A$ : $f(x) \leq f(a)$
+    \end{center} 
+    On dit aussi que $f$ admet un maximum en $a$.
+
+    \item  $f(a)$ est un \textbf{minimum local} de $f$ si il existe un intervalle ouvert $I$ contenant $b$ tel que :
+    \begin{center}
+        $\forall x \in I \cap A$ : $f(x) \geq f(b)$
+    \end{center} 
+    On dit aussi que $f$ admet un minimum en $b$.
+
+    \item  $f(a)$ est un \textbf{maximum absolu} de $f$ si :
+    \begin{center}
+        $\forall x \in A$ : $f(x) \leq f(a)$
+    \end{center} 
+
+    \item  $f(a)$ est un \textbf{minimum absolu} de $f$ si :
+    \begin{center}
+        $\forall x \in A$ : $f(x) \geq f(a)$
+    \end{center} 
+    
+    
+\end{itemize}
+\begin{remarque}
+    Le nom \textbf{extremum} peut être aussi utilisé à la place de maximum ou minimum.
+\end{remarque}
+\newpage
+
+\subsection{Opérations sur les fonctions}
+Soit $f : A \rightarrow \mathbb{R}$ et $f : B \rightarrow \mathbb{R}$ deux fonctions réelles
+
+\begin{itemize}
+    \item  La \textbf{somme} des fonctions $f$ et $g$ est une nouvelle fonction notée $f+g : A \cap B \rightarrow \mathbb{R}$ définie par :
+    \begin{center}
+        $(f + g)(x) = f(x)+g(x)$
+    \end{center} 
+   
+    \item  La \textbf{différence} des fonctions $f$ et $g$ est une nouvelle fonction notée $f-g : A \cap B \rightarrow \mathbb{R}$ définie par :
+    \begin{center}
+        $(f - g)(x) = f(x)-g(x)$
+    \end{center} 
+
+    \item  Le \textbf{produit} de la fonction $f$ par un nombre réel $c$ est une nouvelle fonction notée $c*f : A \rightarrow \mathbb{R}$ définie par :
+    \begin{center}
+        $(c*f)(x) = fc*(x)$
+    \end{center} 
+    \item  Le \textbf{produit} des fonctions $f$ et $g$ est une nouvelle fonction notée $f*g : A \cap B \rightarrow \mathbb{R}$ définie par :
+    \begin{center}
+        $(f * g)(x) = f(x)*g(x)$
+    \end{center} 
+
+    \item  Le \textbf{quotient} des fonctions $f$ et $g$ est une nouvelle fonction notée $\frac{f}{g} : A \cap B \cap {x | g(x) \not = 0} \rightarrow \mathbb{R}$ définie par :
+    \begin{center}
+        $(\frac{f}{g})(x) = \frac{f(x)}{g(x)}$
+    \end{center} 
+
+    \item  La \textbf{composée} des fonctions $f$ et $g$ est une nouvelle fonction notée $g \circ f : {x|x \in A \ et \ f(x) \in B} \rightarrow \mathbb{R}$ définie par :
+    \begin{center}
+        $(g \circ f)(x) = g(f(x))$
+    \end{center} 
+\end{itemize}
+\newpage
+\subsection{Injection, surjection, bijection}
+Soit une fonction $f \ A \rightarrow B$.
+\begin{itemize}
+    \item $f$ est dite \textbf{surjective} si tout élément $y$ de $B$ est l'image par $f$ d'au minimum un élément $x$ de $A$ (au \underline{minimum} une précédence pour chaque objet de $B$).
+
+    \item $f$ est dite \textbf{injective} si tout élément $y$ de $B$ est l'image par $f$ d'au maximum un élément $x$ de $A$ (au \underline{maximum} une précédence pour chaque objet de $B$).
+
+    \item $f$ est dite \textbf{bijective} si elle est \underline{à la fois injective et surjective}. Ainsi, chaque élément $y$ de $B$ est l'image par $f$ d'un \underline{unique} élément $x$ de $A$.
+
+\end{itemize}
+\subsection{Fonction réciproque}
+Soit une fonction $f \ A \rightarrow B$ bijective.\\
+On appelle \textbf{réciproque} de $f$ notée $^rf$ ou $f^{-1}$ la fonction $f^{-1} : B \rightarrow A$ définie par :
+\begin{center}
+    $y=f(x) \Leftrightarrow x = f^{-1}(y)$
+\end{center}
+Chaque fonction $f$ bijective peut donc avoir une fonction réciproque $f^{-1}$ tel que :
+\begin{center}
+    $(f^{-1} \circ f)(x) = x \ \forall x \in A$\\
+    $(f \circ f^{-1})(y) = y \ \forall y \in B$
+\end{center}
+\newpage
+\section{Limites}
+\subsection{Limite : définition}
+Soit $f$ une fonction définie sur un intervalle ouvert contenant $a$ sauf eventuellement en $a$.\\
+Le nombre $L$ est \textbf{limite de $f$ en $a$ si $f(x)$} est arbitrairement proche de $L$ dès que $x$ tend vers $a$, avec $x \not = a$. 
+On note : \begin{center}
+    $\lim_{x \to a} f(x) = L$
+\end{center}
+On dit que $f(x)$ tend vers $L$ quand $x$ tend vers $a$.\\
+\subsection{Limite à droite, limite à gauche}
+Soit $f$ une fonction définie sur un intervalle de la forme $]a;d[$. Le nombre L est \textbf{limite à droite de f en a} si  $\lim_{x \to a_+} f(x) = L$\\
+Soit $f$ une fonction définie sur un intervalle de la forme $]g;a[$. Le nombre L est \textbf{limite à gauche de f en a} si  $\lim_{x \to a_-} f(x) = L$\\
+\subsection{Propriétés des limites}
+Soit $f$ et $g$ deux fonctions admettant une limitent en $a$ et soit $\lambda \in \mathbb{R}$
+\begin{center}
+    \begin{tabular}{ |c|}
+        \hline
+        $\lim_{x \to a} [f(x)+g(x)] =\lim_{x \to a}f(x) + \lim_{x \to a}g(x) $\\
+        $\lim_{x \to a} [f(x)-g(x)] =\lim_{x \to a}f(x) - \lim_{x \to a}g(x) $\\
+        $\lim_{x \to a} [\lambda f(x)] =\lambda \lim_{x \to a}f(x)$\\
+        $\lim_{x \to a} [f(x)*g(x)] =\lim_{x \to a}f(x) * \lim_{x \to a}g(x) $\\
+        $\lim_{x \to a} [\frac{f(x)}{g(x)}] =\frac{\lim_{x \to a}f(x)}{\lim_{x \to a}g(x)}$ si $\lim_{x \to a}g(x) \not = 0$\\
+        \hline
+    \end{tabular}
+\end{center}
+\newpage
+\subsection{Théorème des deux gendarmes}
+\begin{center}
+    \begin{tabular}{ |c|}
+        \hline
+        Soit $f$, $g$ et $h$ trois fonctions définies sur un intervalle ouvert $I$ contenant $a$,\\
+        sauf éventuellement en $a$.\\
+        Si $f(x) \leq h(x) \leq g(x) \forall x \in I \not \;$ \{a\} et si
+        $\lim_{x \to a}f(x) =\lim_{x \to a}g(x) = L$\\
+         alors $\lim_{x \to a}h(x) = L$\\
+        \hline
+    \end{tabular}
+\end{center}
+\subsection{Continuité}
+Une fonction $f$ est \textbf{continue} en $a$ si elle est définie sur une intervalle ouvert contenant $a$ et si $\lim_{x \to a}f(x) = f(a)$\\
+Une fonction $f$ est \textbf{continue} en $a$ si elle est continue en tout point de l'intervalle $I$.\\
+Une fonction $f$ est \textbf{continue sur un intervalle fermé} $[a;b]$ si elle est\\
+continue en tout point de l'intervalle et si \\
+$\lim_{x \to a_+}f(x) = f(a)$ et $\lim_{x \to b_-}f(x) = f(b)$.
+\subsection{Limites de fonctions composées}
+Soit $f$ et $g$ deux fonctions.
+\begin{center}
+    \begin{tabular}{|c|}
+        \hline
+        Si $\lim_{x \to a}f(x) = L$ et si de plus $g$ est continue en $L$, alors\\
+        $\lim_{x \to a}g(f(x)) = g(\lim_{x \to a}f(x)) = g(L) $\\
+        \hline
+   \end{tabular}
+   \newline \\
+   \begin{tabular}{|c|}
+    \hline
+    Si $\lim_{x \to a}f(x) = L$ et si de plus $f(x) \not = L$ sur un intervalle ouvert\\
+    contenant $a$, sauf éventuellement $a$, alors : \\
+    $\lim_{x \to a}g(f(x)) = \lim_{t \to L}g(t)$\\
+    \hline
+\end{tabular}
+\end{center}
+\newpage
+\subsection{Propriétés des fonctions continues}
+\textbf{Continuité de la réciproque}
+\begin{center}
+    \begin{tabular}{|c|}
+        \hline
+        Soit $I$ un intervalle et $f:I \rightarrow J$ une fonction bbijective et continue.\\
+        Alors la réciproque ${}^rf$ est continue sur l'intervalle $J$.\\
+        \hline
+    \end{tabular}
+\end{center}
+\textbf{Théorème de Bolzanno}
+\begin{center}
+    \begin{tabular}{|c|}
+        \hline
+        Si $f$ est continue sur l'intervalle $[a;b]$ et si $f(a)$ et $f(b)$ sont\\
+        de signes différents, alors la fonction $f$ admet au moins un zéro dans\\
+        $[a;b]$\\
+        \hline
+    \end{tabular}
+\end{center}
+\textbf{Théorème de la valeur intermédiaire}
+\begin{center}
+    \begin{tabular}{|c|}
+        \hline
+        Si $f$ est continue sur l'intervalle $[a;b]$, alors pour tout\\
+        nombre $\gamma$ compris entre $f(a)$ et $f(b)$, il existe\\
+        $c \in [a;b]$ tel que $f(c) = \gamma$\\
+        \hline
+    \end{tabular}
+\end{center}
+\textbf{Théorème de Bolzanno-Weierstrass}
+\begin{center}
+    \begin{tabular}{|c|}
+        \hline
+       L'image d'un intervalle fermé borné par une fonction continue est\\ 
+       un intervalle fermé borné\\
+        \hline
+    \end{tabular}
+\end{center}
+\textbf{Corollaire}
+\begin{center}
+    \begin{tabular}{|c|}
+        \hline
+       Une fonction continue sur un intervalle fermé $[a;b]$ admet un\\
+       maximum absolu et un minimum absolu sur cet intervalle.\\
+        \hline
+    \end{tabular}
+\end{center}
+\subsection{Limites infinies}
+Soit $f$ une fonction définie sur un intervalle ouvert contenant $a$, sauf éventuellement en $a$.\\
+\\
+on écrit $\lim_{x \to a}f(x) = + \infty$ si $f(x)$ est arbitrairement grand quand x tend vers a, avec $x \not = a$.\\
+on écrit $\lim_{x \to a}f(x) = - \infty$ si $\lim_{x \to a}(-f(x)) = + \infty$
+\subsection{Propriétés des limites infinies}
+\begin{center}
+    \begin{tabular}{ |c|}
+        \hline
+        $\lim_{x \to a} f(x) = L$ et $\lim_{x \to a} g(x) = + \infty \Rightarrow \lim_{x \to a} [f(x)+g(x)] = + \infty $\\
+        $\lim_{x \to a} f(x) = L < 0$ et $\lim_{x \to a} g(x) = + \infty \Rightarrow \lim_{x \to a} [f(x)*g(x)] = - \infty $\\
+        $\lim_{x \to a} f(x) = L \not = 0$ et $\lim_{x \to a} g(x) = 0 \Rightarrow \lim_{x \to a} \lvert \mathLarge{\frac{f(x)}{g(x)}} \rvert = + \infty $\\
+        $\lim_{x \to a} f(x) = L \not = 0$ et $\lim_{x \to a} g(x) = \pm \infty \Rightarrow \lim_{x \to a} \mathLarge{\frac{f(x)}{g(x)}}  = 0 $\\
+        \hline
+    \end{tabular}
+\end{center}
+\begin{remarque}
+    $\frac{0}{0}$, $\frac{\infty}{\infty}$, $0*\infty$ et $\infty-\infty$ sont des formes dites indéterminées.
+\end{remarque}
+\subsection{Limites à l'infini}
+Soit $f$ une fonction définie sur un intervalle de la forme $[a;+\infty[$.\\
+On écrit $\lim_{x \to \infty} f(x) = L$ si $f(x)$ est arbitrairement proche de $L$ quand\\
+$x$ est suffisamment grand ou de manière équivalente, si $\lim_{t \to 0_+} f(\frac{1}{t}) = L$.\\
+Soit $f$ une fonction définie sur un intervalle de la forme $]- \infty; a]$. On écrit $\lim_{x \to -\infty} f(x) = L$ si $\lim_{x \to +\infty} f(-x) = L$
+\newpage
+\subsection{Asymptotes}
+\begin{definition}
+    La droite d'équation $x=a$ est une \textbf{asymptote verticale} de la fonction $f$ si\\
+    $\lim_{x \to a_+} \lvert f(x) \rvert = + \infty$ ou si  $\lim_{x \to a_-} \lvert f(x) \rvert= +\infty$
+\end{definition}
+\begin{definition}
+    La droite d'équation $y=h_1$ est une \textbf{asymptote horizontale} de la fonction $f$ vers $+\infty$ si $\lim_{x \to + \infty}  f(x)  = h_1$
+\end{definition}
+\begin{definition}
+    La droite d'équation $y=h_2$ est une \textbf{asymptote horizontale} de la fonction $f$ vers $-\infty$ si $\lim_{x \to - \infty}  f(x)  = h_2$
+\end{definition}
+\begin{definition}
+    La droite d'équation $y=h_1$ est une \textbf{asymptote horizontale} de la fonction $f$ vers $+\infty$ si $\lim_{x \to + \infty}  f(x)  = h_1$
+\end{definition}
+\begin{definition}
+    La droite d'équation $y=mx+h$ est une \textbf{asymptote oblique} de la fonction $f$ vers $+\infty$ si \\$f(x) = mx + h + \delta(x)$ avec $\lim_{x \to  +\infty}\delta(x)  = 0$
+\end{definition}
+\begin{definition}
+    La droite d'équation $y=mx+h$ est une \textbf{asymptote oblique} de la fonction $f$ vers $-\infty$ si \\$f(x) = mx + h + \delta(x)$ avec $\lim_{x \to  -\infty}\delta(x)  = 0$
+\end{definition}
+\newpage
+\section{Dérivées}
+        \subsection{Tangeante (dérivée) en $x_0$}
+            Soit deux points M et $M_0$, définis par : $M_0(x_0;f(x_0))$ et $M(x;f(x))$.\\
+            Quand $x$ tend vers $x_0$, alors $M$ s'approche de $M_0$ et la droite $(M_0M)$
+            tend vers une droite limite que l'on appelle $\mathbf{tangeante}$ à f(x) en $M_0$.
+            Cette tangeante en $x_0$ est nommée dérivée de $f$ au point $x_0$, et sa pente est donnée par la limite :\\
+            $$
+            \boxed{
+            f'(x_0) := m = \lim_{x \to x_0} \frac{f(x)-f(x_0)}{x-x_0}
+            }
+            $$
+\subsection{Nombre dérivé à gauche, à droite}
+    La notion de limite a gauche (resp. à droite) permet de définir le nombre dérivé à gauche (resp. droite) d'une fonction en un point.
+    Ceci nous permet de déterminer si la fonction est $\textbf{dérivable en ce point}$ si les limites à gauche et à droite sont les mêmes.\\
+    Ainsi :
+    $$
+    \boxed{
+    f'(x_{0}) \text{ existe si : }= \lim_{x \to x_{0-}} \frac{f(x)-f(x_0)}{x-x_0} = \lim_{x \to x_{0+}} \frac{f(x)-f(x_0)}{x-x_0}
+    }
+    $$\\
+    \textit{(notons ici que $x_{0-}$ et $x_{0+}$ représentent un nombre légèrement plus petit que x, et  resp. un nombre légèrement plus grand que x.)}
+\subsection{Point anguleux, à tangeante verticale, de rebroussement}
+\begin{itemize}
+
+    \item Le graphe d'une fonction $f$ admet un $\textbf{point anguleux en a}$ si $f$ est continue en $a$ et si :\\
+$$\boxed{
+\lim_{x \to a_{-}}f'(x) \not = \lim_{x \to a_{+}}f'(x)
+}
+$$\\
+\textit{(si la fonction $f$ est continue en $a$ mais non dérivable en $a$ alors $f$ admet un point anguleux en $a$.)}\\
+\\
+\item Le graphe d'une fonction $f$ admet une $\textbf{tangeante verticale en a}$ si $f$ est continue en $a$ et si :\\
+$$\boxed{
+\lim_{x \to a_{-} } \lvert f'(x) \rvert = +\infty
+}
+$$\\
+\textit{ce point est un \textbf{point de rebroussement} si de plus la limite $\lim_{x \to a_{-}}f'(x) $ n'existe pas.}\\
+\\
+\end{itemize}
+\subsection{fonction dérivée}
+\begin{definition}
+    Une fonction $f$ est \textbf{dérivable} sur une partie de $A$ sur $\mathbb{R}$ si elle est dérivable en tout points de $A$. On définit la fonction dérivée par :\\
+    \begin{center}
+        $f': A \to \mathbb{R}$\\
+        $x \to f'(x)$
+    \end{center}
+\end{definition}
+\pagebreak
+$\textbf{Dérivées de fonction élémentaires}$
+\begin{center}
+    \begin{tabular}{ |c c|c c| } 
+     \hline
+     $f(x)$& & $f'(x)$ &\\ 
+     \hline
+     $c$ & & 0 &\\ 
+     $x$ & & 1 &\\ 
+     $x^n$ & $n\in \mathbb{N^*}$ & $n*x^{n-1}$ & \\ 
+     $\frac{1}{x}$ & & $\mathLarge{-\frac{1}{x^2}}$  & $ x\not = 0$ \\ 
+     $\sqrt{x}$ & & $\mathLarge{\frac{1}{2\sqrt{x}}}$ &$x>0$ \\ 
+     $cos(x)$ & & $-sin(x)$ &\\
+     $\lvert x \rvert$ & & $sgn(x)$ & $x \not = 0$\\ 
+
+     \hline
+    \end{tabular}
+\end{center}
+    $\textbf{Dérivées de fonction particulières}$
+    \begin{center}
+    \begin{tabular}{ |c c|c c| }
+     \hline
+     $f(x)$& & $f'(x)$ &\\ 
+     \hline
+     $x^q$ & $q \in \mathbb{Q}$& $qx^{q-1}$ &\\ 
+     $tan(x)$ & & $\mathLarge{\frac{1}{cos^2(x)}} = 1+tan^2(x)$&\\ 
+     $cot(x)$ &  & $\mathLarge{\frac{-1}{sin^2(x)}} = -1-cot^2(x)$& \\ 
+     $arcsin(x)$ & & $\mathLarge{\frac{1}{\sqrt{1-x^2}}}$  & \\ 
+     $arccos(x)$ & & $\mathLarge{\frac{-1}{\sqrt{1-x^2}}}$  & \\
+     $arctan(x)$ & & $\mathLarge{\frac{1}{1+x^2}}$  & \\
+
+     \hline
+    \end{tabular}
+    \end{center}
+\subsection{Dérivée d'ordre supérieur}
+\begin{definition}
+    La \textbf{dérivée d'ordre n} de $f$ est la fonction n fois dérivée $f^{(n)}$ définie par $f^{(n)}(x) = (f^{(n-1)})'(x)$ 
+\end{definition}
+\subsection{Propriétés utiles}
+    \begin{tabular}{ |c|}
+        \hline
+        Toute fonction dérivable en $a$ est continue en $a$\\
+        \hline
+    \end{tabular}
+    \newline \\
+    \begin{tabular}{ |c|}
+        \hline
+        Si la fonction $f$ est dérivable en $a$ et admet un extremum en $a$, alors $f'(a) = 0$\\
+        \hline
+    \end{tabular}
+    \newline \\
+\textbf{Théorème de Rolle}\\
+\newline \\
+\begin{tabular}{ |c|}
+    \hline
+    Si $f$ est une fonction continue sur l'intervalle $[a;b]$, et dérivable sur\\
+     l'intervalle $]a;b[$ et si $f(a) = f(b)$ alors il existe au moins\\
+    un nombre c dans $]a;b[$ t.q. $f'(c)=0$\\
+    \hline
+\end{tabular}
+\newline \\
+\textit{(Il existe entre les points $A$ et $B$ de "même hauteur" un point ayant une tangeante horizontale.)}\\
+\newline \\
+\textbf{Théorème des accroisements finis (TAF)}\\
+\newline \\
+\begin{tabular}{ |c|}
+    \hline
+    Si $f$ est une fonction continue sur l'intervalle $[a;b]$, et dérivable \\
+    sur l'intervalle $]a;b[$ alors il existe au moins un nombre c \\
+    dans $]a;b[$ t.q. $f'(c)= \mathLarge{\frac{f(b)-f(a)}{b-a}}$\\
+    \hline
+\end{tabular}
+\newline \\
+\textit{(Il existe entre les points $A$ et $B$ un point ayant une tangeante parrallèle à la droite $AB$.)}
+\newpage
+\subsection{Règles de dérivation}
+Soit $f$ et $g$ deux fonction dérivables en $a$. Soit $c \in \mathbb{R}$\\
+\begin{center}
+\begin{tabular}{ |c|}
+    \hline
+    $(f+g)'(a) = f'(a) + g'(a)$\\
+    $(f-g)'(a) = f'(a) - g'(a)$\\
+    $(c*f)'(a) = c*f'(a)$\\
+    $(f*g)'(a) = f'(a)*g(x) + f(a)*g'(a)$\\
+    $(\frac{f}{g})'(a) = \mathLarge{\frac{f'(a)*g(a) - f(a)g'(a)}{g^2(a)}}$\\
+    \hline
+\end{tabular}
+\end{center}
+
+Si $f$ est une fonction dérivable en $a$ et g une fonction dérivable en $f(a)$, alors $g \circ f$ est dérivable en $a$ et :\\
+\begin{center}
+    \begin{tabular}{ |c|}
+        \hline
+        $(g \circ f)'(a) = g'(f(a)) * f'(a)$\\
+        \hline
+    \end{tabular}
+    \end{center}
+\begin{exemple}
+    On "dérive en boîtes" :\\
+    \newline \\
+    $\rightarrow sin^{2}(2x)' =$\\
+    \newline \\
+    \textcircled{1} Dériver le carré : $2sin(2x)$\\
+    \textcircled{2} Dériver le sinus : $cos(2x)$\\
+    \textcircled{3} Dériver 2x : $2$\\
+    \textcircled{4} Multiplier chaque partie entre elles :$2sin(2x)*cos(2x)*2 = 4sin(2x)cos(2x)$\\
+\end{exemple}
+\newpage
+\subsection{Primitives d'une fonction}
+\begin{definition}
+    Soit $f$ une fonction définie sur un intervalle $I$ (une partie de $\mathbb{R}$). Une fonction dérivable $F$ est une \textbf{primitive} de $f$ sur $I$ si\\
+     $F'(x) = f(x) \forall x \in I$.
+\end{definition}
+On désigne généralement par $\int f(x)dx$ l'ensemble des primitives de $f$ sur $I$. On l'appelle \textbf{intégrale indéfinie} de f.\\
+\textbf{Intégrer} une fonction $f$ sur un intervalle $I$ c'est chercher toutes les primiteives de $f$ sur $I$.\\
+Si $F$ est primitive de $f$ sur $I$, alors toute primitive de $f$ est de la forme $\mathbf{F(x)+c}$, avec $c \in \mathbb{R}$. On convient d'écrire :\\
+\begin{center}
+    \begin{tabular}{ |c|}
+        \hline
+       $\int f(x)dx = F(x)+c, \ \ c \in \mathbb{R}$\\
+        \hline
+    \end{tabular}
+\end{center}
+\subsection{Primitives des fonctions élémentaires}
+\begin{center}
+    \begin{tabular}{|c|c|}
+        \hline
+       $f(x)$ & $\int f(x)dx$\\
+        \hline
+        $1$ & $x+c \ \ \ c \in \mathbb{R}$\\
+        $x^q \ \ q \in \mathbb{Q} \setminus \{-1\}$ & $\frac{x^{q+1}}{q+1}+c \ \ \ c \in \mathbb{R}$\\
+        $cos(x)$ & $sin(x)+c \ \ \ c \in \mathbb{R}$\\
+        $sin(x)$ & $-cos(x)+c \ \ \ c \in \mathbb{R}$\\
+        \hline
+    \end{tabular}
+\end{center}
+\newpage
+\subsection{Propriétés élémentaires}
+Soit $f$ et $g$ deux fonctions admettant une primitive sur un intervalle $I$
+\begin{center}
+    \begin{tabular}{|c|}
+        \hline
+        $\int \lambda f(x)dx = \lambda \int f(x)dx \ \ \ \lambda \in \mathbb{R}$\\
+        $\int (f(x)+g(x))dx = \int f(x)dx + \int g(x)dx $\\
+        $\int (f(x)-g(x))dx = \int f(x)dx - \int g(x)dx $\\
+        $\int g(f(x))*f'(x)dx = G(f(x)) + c \ \ \ c \in \mathbb{R}$\\
+        Où $G$ est une primitive de $g$.\\
+        \hline
+    \end{tabular}
+\end{center}
+\newpage
+\section{Applications des dérivées}
+
+
+\end{document}
