@@ -12,7 +12,8 @@
 \newtheorem*{observation}{Observation}
 \newtheorem*{exemple}{Exemple}
 \renewcommand{\chaptername}{Chapitre}
-
+\let\oldemptyset\emptyset
+\let\emptyset\varnothing
 \setlength{\tabcolsep}{25pt}
 \renewcommand{\arraystretch}{2.3}
 \def\mathLarge#1{\mbox{\LARGE $#1$}}
@@ -27,7 +28,55 @@
 
 \chapter{Analyse}
 \section{Notions de bases}
-\subsection{Fonction réelle}
+\subsection{Introduction}
+On désigne par $\emptyset$ \textbf{l'ensemble vide. $\mathbb{N}$ l'ensemble des entiers naturels, $\mathbb{Z}$ l'anneau des entiers relatifs, $\mathbb{Q}$ le corps des nombres rationnels, et $\mathbb{R}$ le corps des nombres réels.} $\mathbb{R} \setminus \mathbb{Q}$ étant l'ensemble des \textbf{Nombres irrationnels.} On a donc les inclusions suivantes :\\
+\begin{center}
+    $\emptyset \subset \mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R}$
+\end{center}
+Par définition, on ajoute ${}^*$ pour signifier que le zéro est non compris dans l'ensemble, ${}_+$ pour signifier que l'ensemble ne contient que des positifs, ${}_-$ pour signifier que l'ensemble ne contient que des négatifs.
+\subsection{Intervalle}
+\begin{definition}
+    Un sous ensemble $I \not = \emptyset$ de $\mathbb{R}$ est appelé un
+    \textbf{intervalle} si pour tout couple $(a,b) \in I \times I$ vérifiant
+     $a \leq b$, la relation $a \leq x \leq b$ implique $x \in I $.
+\end{definition}
+Il en découle une suite de notations :
+\newpage
+\subsubsection{Intervalles bornés}
+Intervalle ouvert : $]a;b[ \ = ${$x \in \mathbb{R}:a < x < b$}\\
+Intervalle fermé : $[a;b]\ = ${$x \in \mathbb{R}:a \leq x \leq b$}\\
+Intervalle semi-ouvert à gauche : $]a;b]\ = ${$x \in \mathbb{R}:a < x \leq b$}\\
+Intervalle semi-ouvert à droite : $[a;b[ \ = ${$x \in \mathbb{R}:a \leq x < b$}\\
+\subsubsection{Intervalles non bornés}
+Intervalle ouvert : $]-\infty;a[ \ = ${$x \in \mathbb{R}:x<a$}\\
+Intervalle ouvert : $]a ;+\infty[\ = ${$x \in \mathbb{R}:x>a$}\\
+\newline \\
+Intervalle fermé : $]-\infty;a] \ = ${$x \in \mathbb{R}:x\leq a$}\\
+Intervalle fermé :  $[a ;+\infty[ \ = ${$x \in \mathbb{R}:x \geq a$}\\
+
+\subsection{Valeur absolue}
+\begin{definition}
+    A tout nombre réel $x$, on peut associer le nombre réel positif ou nul défini par :
+    \begin{center}
+        $$\lvert x \rvert =
+        \begin{cases}
+            x \text{ si } x > 0\\
+            -x \text{ si } x \leq 0
+        \end{cases}
+        $$
+    \end{center}
+$\lvert x \rvert$ est appelé la \textbf{valeur absolue} de $x$.
+\end{definition}
+\subsection{Partie entière}
+\begin{definition}
+    A tout nombre réel $x$, on peut associer un unique entier relatif [$x$] tel que :
+    \begin{center}
+        $[x] \leq x < [x]+1$
+    \end{center}
+    $[x]$ est appelé la \textbf{partie entière} de $x$, soit le plus grand entier relatif inférieur ou égal à x.
+\end{definition}
+\newpage
+\section{Fonction réelle}
 Soit $A$ et $B$ deux sous ensembles de $\mathbb{R}$. On appelle fonction réelle une relation qui lie un élément $x$ de $A$ à un élément y ($f(x)$, la valeur de $f$ en $x$) dans $B$.
 
 \begin{remarque}
@@ -195,6 +244,9 @@ On note : \begin{center}
     $\lim_{x \to a} f(x) = L$
 \end{center}
 On dit que $f(x)$ tend vers $L$ quand $x$ tend vers $a$.\\
+\begin{remarque}
+    On peut aussi utiliser les limites sur des suites plutôt que sur des fonctions.
+\end{remarque}
 \subsection{Limite à droite, limite à gauche}
 Soit $f$ une fonction définie sur un intervalle de la forme $]a;d[$. Le nombre L est \textbf{limite à droite de f en a} si  $\lim_{x \to a_+} f(x) = L$\\
 Soit $f$ une fonction définie sur un intervalle de la forme $]g;a[$. Le nombre L est \textbf{limite à gauche de f en a} si  $\lim_{x \to a_-} f(x) = L$\\
@@ -224,6 +276,10 @@ Soit $f$ et $g$ deux fonctions admettant une limitent en $a$ et soit $\lambda \i
         \hline
     \end{tabular}
 \end{center}
+\subsection{Critère de d'Alembert}
+
+\subsection{Critère de Cauchy}
+
 \subsection{Continuité}
 Une fonction $f$ est \textbf{continue} en $a$ si elle est définie sur une intervalle ouvert contenant $a$ et si $\lim_{x \to a}f(x) = f(a)$\\
 Une fonction $f$ est \textbf{continue} en $a$ si elle est continue en tout point de l'intervalle $I$.\\
@@ -342,6 +398,34 @@ Soit $f$ une fonction définie sur un intervalle de la forme $]- \infty; a]$. On
 \begin{definition}
     La droite d'équation $y=mx+h$ est une \textbf{asymptote oblique} de la fonction $f$ vers $-\infty$ si \\$f(x) = mx + h + \delta(x)$ avec $\lim_{x \to  -\infty}\delta(x)  = 0$
 \end{definition}
+\subsection{Astuces de calcul}
+\subsubsection{Division euclidienne}
+Soit $f(x)$, $g(x)$ deux fonctions rationnelles et $L =\lim_{x \to + b}  \frac{f(x)}{g(x)}  = "\frac{0}{0}"$,\\
+avec b $\in \mathbb{R}$\\
+On remarque dans cette situation que $f(x)$ et $g(x)$ sont divisibles par $(x-b)$ (car quand $x = b$, $f(x)$ et $g(x)$ sont tous deux nuls.)\\
+Ainsi, nous pouvons mettre en évidence $(x-b)$ dans $f(x)$ et $g(x)$ grâce a une divison euclidienne (un schéma de Horner peut s'avérer pratique).
+\begin{remarque}
+    Si le reste de la division euclidienne est de zéro, il peut être intéressant de remettre $(x-b)$ en évidence dans la nouvelle limite obtenue.
+\end{remarque}
+\subsubsection{Règle de Bernouilli-L'Hospital}
+Se réferer à la définition de la règle de Bernouilli L'Hospital.\\
+Rappel rapide :\\
+\begin{center}
+    $\lim_{x \to a} \frac{f'(x)}{g'(x)} = \lim_{x \to a} \frac{f(x)}{g(x)}  = L$
+\end{center}
+\textit{}{Avec $g$ et $g'$ non nuls, et $f$, $g$ dérivables.}
+\subsubsection{Limites remarquables}
+\begin{tabular}{ |c | c| } 
+    \hline
+Fonctions Trigonométriques :&Fonctions Logarithmiques :\\
+\hline
+    $\lim_{x \to 0} \frac{sin(x)}{x} = 1$& $\lim_{x \to 0} \frac{e^x-1}{x} = 1$\\
+    $\lim_{x \to 0} \frac{1-cos(x)}{x^2} = \frac{1}{2}$&$\lim_{x \to 0} (1 + \frac{a}{x})^x = e^a$\\
+    $\lim_{x \to 0} \frac{arcsin(x)}{x} = 1$&$\lim_{x \to 0} \frac{ln(1+ax)}{x} = a$\\
+    $\lim_{x \to 0} \frac{tan(x)}{x} = 1$&$\lim_{x \to 0} (1+ax)^\frac{1}{x} = e^a$
+\end{tabular}
+
+
 \newpage
 \section{Dérivées}
         \subsection{Tangeante (dérivée) en $x_0$}
@@ -428,6 +512,22 @@ $\textbf{Dérivées de fonction élémentaires}$
 \begin{definition}
     La \textbf{dérivée d'ordre n} de $f$ est la fonction n fois dérivée $f^{(n)}$ définie par $f^{(n)}(x) = (f^{(n-1)})'(x)$ 
 \end{definition}
+\subsection{Règle de Bernouilli-L'Hospital}
+\begin{definition}
+    Soient des fonctions $f$, $g$ telles que $f, g : ]a,b[ \rightarrow F$, \\
+    dérivables telles que $g, g'$ ne s'annulent pas sur $]a,b[$. De plus, on suppose que :
+    \begin{itemize}
+        \item  $\lim_{x \to a} f(x) = \lim_{x \to a} g(x) = \alpha$ avec $\alpha= 0, - \infty$ ou $+\infty$;
+        \item $\lim_{x \to a} \frac{f'(x)}{g'(x)} = L$, avec $L \in \mathbb{R} \cup {-\infty, +\infty}$
+    \end{itemize}
+Alors,
+\begin{center}
+    \boldmath{$\lim_{x \to a} \frac{f'(x)}{g'(x)} = L$}
+\end{center}
+\end{definition}
+\begin{remarque}
+    cette règle reste valable quand x tend vers b-, a+, -$\infty$ ou +$\infty$
+\end{remarque}
 \subsection{Propriétés utiles}
     \begin{tabular}{ |c|}
         \hline

@@ -1,35 +1,48 @@
 \contentsline {chapter}{\numberline {1}Analyse}{5}{}%
 \contentsline {section}{\numberline {1.1}Notions de bases}{5}{}%
-\contentsline {subsection}{\numberline {1.1.1}Fonction réelle}{5}{}%
-\contentsline {subsection}{\numberline {1.1.2}Représentation graphique}{5}{}%
-\contentsline {subsection}{\numberline {1.1.3}Parité d'une fonction}{6}{}%
-\contentsline {subsection}{\numberline {1.1.4}Périodicité d'une fonction}{6}{}%
-\contentsline {subsection}{\numberline {1.1.5}Croissance et décroissance d'une fonction}{6}{}%
-\contentsline {subsection}{\numberline {1.1.6}Maximum et minimum d'une fonction}{7}{}%
-\contentsline {subsection}{\numberline {1.1.7}Opérations sur les fonctions}{8}{}%
-\contentsline {subsection}{\numberline {1.1.8}Injection, surjection, bijection}{9}{}%
-\contentsline {subsection}{\numberline {1.1.9}Fonction réciproque}{9}{}%
-\contentsline {section}{\numberline {1.2}Limites}{10}{}%
-\contentsline {subsection}{\numberline {1.2.1}Limite : définition}{10}{}%
-\contentsline {subsection}{\numberline {1.2.2}Limite à droite, limite à gauche}{10}{}%
-\contentsline {subsection}{\numberline {1.2.3}Propriétés des limites}{10}{}%
-\contentsline {subsection}{\numberline {1.2.4}Théorème des deux gendarmes}{11}{}%
-\contentsline {subsection}{\numberline {1.2.5}Continuité}{11}{}%
-\contentsline {subsection}{\numberline {1.2.6}Limites de fonctions composées}{11}{}%
-\contentsline {subsection}{\numberline {1.2.7}Propriétés des fonctions continues}{12}{}%
-\contentsline {subsection}{\numberline {1.2.8}Limites infinies}{13}{}%
-\contentsline {subsection}{\numberline {1.2.9}Propriétés des limites infinies}{13}{}%
-\contentsline {subsection}{\numberline {1.2.10}Limites à l'infini}{13}{}%
-\contentsline {subsection}{\numberline {1.2.11}Asymptotes}{14}{}%
-\contentsline {section}{\numberline {1.3}Dérivées}{15}{}%
-\contentsline {subsection}{\numberline {1.3.1}Tangeante (dérivée) en $x_0$}{15}{}%
-\contentsline {subsection}{\numberline {1.3.2}Nombre dérivé à gauche, à droite}{15}{}%
-\contentsline {subsection}{\numberline {1.3.3}Point anguleux, à tangeante verticale, de rebroussement}{15}{}%
-\contentsline {subsection}{\numberline {1.3.4}fonction dérivée}{16}{}%
-\contentsline {subsection}{\numberline {1.3.5}Dérivée d'ordre supérieur}{18}{}%
-\contentsline {subsection}{\numberline {1.3.6}Propriétés utiles}{18}{}%
-\contentsline {subsection}{\numberline {1.3.7}Règles de dérivation}{19}{}%
-\contentsline {subsection}{\numberline {1.3.8}Primitives d'une fonction}{20}{}%
-\contentsline {subsection}{\numberline {1.3.9}Primitives des fonctions élémentaires}{20}{}%
-\contentsline {subsection}{\numberline {1.3.10}Propriétés élémentaires}{21}{}%
-\contentsline {section}{\numberline {1.4}Applications des dérivées}{22}{}%
+\contentsline {subsection}{\numberline {1.1.1}Introduction}{5}{}%
+\contentsline {subsection}{\numberline {1.1.2}Intervalle}{5}{}%
+\contentsline {subsubsection}{Intervalles bornés}{6}{}%
+\contentsline {subsubsection}{Intervalles non bornés}{6}{}%
+\contentsline {subsection}{\numberline {1.1.3}Valeur absolue}{6}{}%
+\contentsline {subsection}{\numberline {1.1.4}Partie entière}{6}{}%
+\contentsline {section}{\numberline {1.2}Fonction réelle}{7}{}%
+\contentsline {subsection}{\numberline {1.2.1}Représentation graphique}{7}{}%
+\contentsline {subsection}{\numberline {1.2.2}Parité d'une fonction}{8}{}%
+\contentsline {subsection}{\numberline {1.2.3}Périodicité d'une fonction}{8}{}%
+\contentsline {subsection}{\numberline {1.2.4}Croissance et décroissance d'une fonction}{8}{}%
+\contentsline {subsection}{\numberline {1.2.5}Maximum et minimum d'une fonction}{9}{}%
+\contentsline {subsection}{\numberline {1.2.6}Opérations sur les fonctions}{10}{}%
+\contentsline {subsection}{\numberline {1.2.7}Injection, surjection, bijection}{11}{}%
+\contentsline {subsection}{\numberline {1.2.8}Fonction réciproque}{11}{}%
+\contentsline {section}{\numberline {1.3}Limites}{12}{}%
+\contentsline {subsection}{\numberline {1.3.1}Limite : définition}{12}{}%
+\contentsline {subsection}{\numberline {1.3.2}Limite à droite, limite à gauche}{12}{}%
+\contentsline {subsection}{\numberline {1.3.3}Propriétés des limites}{12}{}%
+\contentsline {subsection}{\numberline {1.3.4}Théorème des deux gendarmes}{13}{}%
+\contentsline {subsection}{\numberline {1.3.5}Critère de d'Alembert}{13}{}%
+\contentsline {subsection}{\numberline {1.3.6}Critère de Cauchy}{13}{}%
+\contentsline {subsection}{\numberline {1.3.7}Continuité}{13}{}%
+\contentsline {subsection}{\numberline {1.3.8}Limites de fonctions composées}{13}{}%
+\contentsline {subsection}{\numberline {1.3.9}Propriétés des fonctions continues}{14}{}%
+\contentsline {subsection}{\numberline {1.3.10}Limites infinies}{15}{}%
+\contentsline {subsection}{\numberline {1.3.11}Propriétés des limites infinies}{15}{}%
+\contentsline {subsection}{\numberline {1.3.12}Limites à l'infini}{15}{}%
+\contentsline {subsection}{\numberline {1.3.13}Asymptotes}{16}{}%
+\contentsline {subsection}{\numberline {1.3.14}Astuces de calcul}{16}{}%
+\contentsline {subsubsection}{Division euclidienne}{16}{}%
+\contentsline {subsubsection}{Règle de Bernouilli-L'Hospital}{16}{}%
+\contentsline {subsubsection}{Limites remarquables}{17}{}%
+\contentsline {section}{\numberline {1.4}Dérivées}{18}{}%
+\contentsline {subsection}{\numberline {1.4.1}Tangeante (dérivée) en $x_0$}{18}{}%
+\contentsline {subsection}{\numberline {1.4.2}Nombre dérivé à gauche, à droite}{18}{}%
+\contentsline {subsection}{\numberline {1.4.3}Point anguleux, à tangeante verticale, de rebroussement}{18}{}%
+\contentsline {subsection}{\numberline {1.4.4}fonction dérivée}{19}{}%
+\contentsline {subsection}{\numberline {1.4.5}Dérivée d'ordre supérieur}{21}{}%
+\contentsline {subsection}{\numberline {1.4.6}Règle de Bernouilli-L'Hospital}{21}{}%
+\contentsline {subsection}{\numberline {1.4.7}Propriétés utiles}{21}{}%
+\contentsline {subsection}{\numberline {1.4.8}Règles de dérivation}{23}{}%
+\contentsline {subsection}{\numberline {1.4.9}Primitives d'une fonction}{24}{}%
+\contentsline {subsection}{\numberline {1.4.10}Primitives des fonctions élémentaires}{24}{}%
+\contentsline {subsection}{\numberline {1.4.11}Propriétés élémentaires}{25}{}%
+\contentsline {section}{\numberline {1.5}Applications des dérivées}{26}{}%

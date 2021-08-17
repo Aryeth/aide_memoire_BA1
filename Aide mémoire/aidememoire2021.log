@@ -1,129 +1,129 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.28)  28 JUN 2021 18:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.4.12)  17 AUG 2021 15:21
 entering extended mode
-**"c:/Users/Léo/Downloads/aide_memoire_BA1-main/Aide mémoire/aidememoire2021.tex"
-(c:/Users/Léo/Downloads/aide_memoire_BA1-main/Aide mémoire/aidememoire2021.tex
-LaTeX2e <2021-06-01>
-L3 programming layer <2021-06-01> (C:\mixteX\tex/latex/base\book.cls
-Document Class: book 2021/02/12 v1.4n Standard LaTeX document class
-(C:\mixteX\tex/latex/base\bk12.clo
-File: bk12.clo 2021/02/12 v1.4n Standard LaTeX file (size option)
+**"d:/Aide mémoire 2021/aidememoire2021.tex"
+(d:/Aide mémoire 2021/aidememoire2021.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18> (C:\Users\leobe\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
+Document Class: book 2020/04/10 v1.4m Standard LaTeX document class
+(C:\Users\leobe\AppData\Local\Programs\MiKTeX\tex/latex/base\bk12.clo
+File: bk12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 )
-\c@part=\count182
-\c@chapter=\count183
-\c@section=\count184
-\c@subsection=\count185
-\c@subsubsection=\count186
-\c@paragraph=\count187
-\c@subparagraph=\count188
-\c@figure=\count189
-\c@table=\count190
+\c@part=\count179
+\c@chapter=\count180
+\c@section=\count181
+\c@subsection=\count182
+\c@subsubsection=\count183
+\c@paragraph=\count184
+\c@subparagraph=\count185
+\c@figure=\count186
+\c@table=\count187
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
-) (C:\mixteX\tex/latex/base\inputenc.sty
-Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks16
-\inpenc@posthook=\toks17
-) (C:\mixteX\tex/latex/amsfonts\amssymb.sty
+) (C:\Users\leobe\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2020/08/01 v1.3d Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+) (C:\Users\leobe\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
- (C:\mixteX\tex/latex/amsfonts\amsfonts.sty
+ (C:\Users\leobe\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks18
+\@emptytoks=\toks17
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (C:\mixteX\tex/latex/amsmath\amsmath.sty
-Package: amsmath 2021/04/20 v2.17j AMS math features
+)) (C:\Users\leobe\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
 \@mathmargin=\skip49
 
 For additional information on amsmath, use the `?' option.
-(C:\mixteX\tex/latex/amsmath\amstext.sty
+(C:\Users\leobe\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
- (C:\mixteX\tex/latex/amsmath\amsgen.sty
+ (C:\Users\leobe\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks19
+\@emptytoks=\toks18
 \ex@=\dimen139
-)) (C:\mixteX\tex/latex/amsmath\amsbsy.sty
+)) (C:\Users\leobe\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen140
-) (C:\mixteX\tex/latex/amsmath\amsopn.sty
+) (C:\Users\leobe\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count191
+\inf@bad=\count188
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count192
-\leftroot@=\count193
+\uproot@=\count189
+\leftroot@=\count190
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count194
-\DOTSCASE@=\count195
+\classnum@=\count191
+\DOTSCASE@=\count192
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box50
-\strutbox@=\box51
+\Mathstrutbox@=\box47
+\strutbox@=\box48
 \big@size=\dimen141
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count196
-\c@MaxMatrixCols=\count197
+\macc@depth=\count193
+\c@MaxMatrixCols=\count194
 \dotsspace@=\muskip16
-\c@parentequation=\count198
-\dspbrk@lvl=\count199
-\tag@help=\toks20
-\row@=\count266
-\column@=\count267
-\maxfields@=\count268
-\andhelp@=\toks21
+\c@parentequation=\count195
+\dspbrk@lvl=\count196
+\tag@help=\toks19
+\row@=\count197
+\column@=\count198
+\maxfields@=\count199
+\andhelp@=\toks20
 \eqnshift@=\dimen142
 \alignsep@=\dimen143
 \tagshift@=\dimen144
 \tagwidth@=\dimen145
 \totwidth@=\dimen146
 \lineht@=\dimen147
-\@envbody=\toks22
+\@envbody=\toks21
 \multlinegap=\skip50
 \multlinetaggap=\skip51
-\mathdisplay@stack=\toks23
+\mathdisplay@stack=\toks22
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
-) (C:\mixteX\tex/latex/amscls\amsthm.sty
+) (C:\Users\leobe\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
-\thm@style=\toks24
-\thm@bodyfont=\toks25
-\thm@headfont=\toks26
-\thm@notefont=\toks27
-\thm@headpunct=\toks28
+\thm@style=\toks23
+\thm@bodyfont=\toks24
+\thm@headfont=\toks25
+\thm@notefont=\toks26
+\thm@headpunct=\toks27
 \thm@preskip=\skip52
 \thm@postskip=\skip53
 \thm@headsep=\skip54
-\dth@everypar=\toks29
-) (C:\mixteX\tex/latex/mathtools\mathtools.sty
-Package: mathtools 2021/04/12 v1.27 mathematical typesetting tools
- (C:\mixteX\tex/latex/graphics\keyval.sty
+\dth@everypar=\toks28
+) (C:\Users\leobe\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mathtools.sty
+Package: mathtools 2021/03/28 v1.26 mathematical typesetting tools
+ (C:\Users\leobe\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks30
-) (C:\mixteX\tex/latex/tools\calc.sty
+\KV@toks@=\toks29
+) (C:\Users\leobe\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count269
-\calc@Bcount=\count270
+\calc@Acount=\count266
+\calc@Bcount=\count267
 \calc@Adimen=\dimen148
 \calc@Bdimen=\dimen149
 \calc@Askip=\skip55
 \calc@Bskip=\skip56
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count271
+\calc@Ccount=\count268
 \calc@Cskip=\skip57
-) (C:\mixteX\tex/latex/mathtools\mhsetup.sty
+) (C:\Users\leobe\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
 LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
-\g_MT_multlinerow_int=\count272
+\g_MT_multlinerow_int=\count269
 \l_MT_multwidth_dim=\dimen150
 \origjot=\skip58
 \l_MT_shortvdotswithinadjustabove_dim=\dimen151
@@ -132,326 +132,356 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
 \l_MT_below_intertext_sep=\dimen154
 \l_MT_above_shortintertext_sep=\dimen155
 \l_MT_below_shortintertext_sep=\dimen156
-\xmathstrut@box=\box52
+\xmathstrut@box=\box49
 \xmathstrut@dim=\dimen157
-) (C:\mixteX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count273
-\l__pdf_internal_box=\box53
-) (aidememoire2021.aux)
+) (C:\Users\leobe\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count270
+\l__pdf_internal_box=\box50
+) (d:/Aide mémoire 2021\aidememoire2021.aux)
 \openout1 = `aidememoire2021.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
- (C:\mixteX\tex/latex/graphics\graphicx.sty
-Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
- (C:\mixteX\tex/latex/graphics\graphics.sty
-Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
- (C:\mixteX\tex/latex/graphics\trig.sty
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+ (C:\Users\leobe\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+ (C:\Users\leobe\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+ (C:\Users\leobe\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-) (C:\mixteX\tex/latex/graphics-cfg\graphics.cfg
+) (C:\Users\leobe\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 107.
- (C:\mixteX\tex/latex/graphics-def\pdftex.def
+Package graphics Info: Driver file: pdftex.def on input line 105.
+ (C:\Users\leobe\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
- (C:\mixteX\tex/context/base/mkii\supp-pdf.mkii
+ (C:\Users\leobe\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count274
+\scratchcounter=\count271
 \scratchdimen=\dimen158
-\scratchbox=\box54
-\nofMPsegments=\count275
-\nofMParguments=\count276
-\everyMPshowfont=\toks31
-\MPscratchCnt=\count277
+\scratchbox=\box51
+\nofMPsegments=\count272
+\nofMParguments=\count273
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count274
 \MPscratchDim=\dimen159
-\MPnumerator=\count278
-\makeMPintoPDFobject=\count279
-\everyMPtoPDFconversion=\toks32
-))) (C:\mixteX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+\MPnumerator=\count275
+\makeMPintoPDFobject=\count276
+\everyMPtoPDFconversion=\toks31
+))) (C:\Users\leobe\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (C:\mixteX\tex/latex/00miktex\epstopdf-sys.cfg
+ (C:\Users\leobe\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 \Gin@req@height=\dimen160
 \Gin@req@width=\dimen161
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 25.
- (C:\mixteX\tex/latex/amsfonts\umsa.fd
+LaTeX Font Info:    Trying to load font information for U+msa on input line 26.
+ (C:\Users\leobe\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 25.
- (C:\mixteX\tex/latex/amsfonts\umsb.fd
+LaTeX Font Info:    Trying to load font information for U+msb on input line 26.
+ (C:\Users\leobe\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 
-{C:/Users/Léo/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2
+{C:/Users/leobe/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2
 
-] (aidememoire2021.toc [3])
+] (d:/Aide mémoire 2021\aidememoire2021.toc [3])
 \tf@toc=\write3
 \openout3 = `aidememoire2021.toc'.
 
  [4]
 Chapitre 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--45
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
  []
 
 [5
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 60--62
+Underfull \hbox (badness 10000) in paragraph at lines 46--50
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--66
+Underfull \hbox (badness 10000) in paragraph at lines 51--56
 
  []
 
-[6] [7] [8] [9]
-Overfull \hbox (1.65219pt too wide) in paragraph at lines 192--194
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--56
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--56
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 92--94
+
+ []
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 109--111
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--115
+
+ []
+
+[8] [9] [10] [11]
+Overfull \hbox (1.65219pt too wide) in paragraph at lines 241--243
 \OT1/cmr/m/n/12 Soit $\OML/cmm/m/it/12 f$ \OT1/cmr/m/n/12 une fonc-tion definie sur un in-ter-valle ou-vert con-tenant $\OML/cmm/m/it/12 a$ \OT1/cmr/m/n/12 sauf eventuelle-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 197--198
+Underfull \hbox (badness 10000) in paragraph at lines 246--247
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 199--201
-
- []
-
-[10]
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 221.
- (C:\mixteX\tex/latex/base\omscmr.fd
-File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 221.
-
-Overfull \hbox (49.18768pt too wide) in paragraph at lines 217--226
- [] 
- []
-
-[11]
-Overfull \hbox (9.92645pt too wide) in paragraph at lines 255--261
- [] 
- []
-
-
-Overfull \hbox (13.10678pt too wide) in paragraph at lines 264--271
- [] 
- []
-
-
-Overfull \hbox (27.04498pt too wide) in paragraph at lines 301--305
-\OT1/cmr/m/n/12 Soit $\OML/cmm/m/it/12 f$ \OT1/cmr/m/n/12 une fonc-tion definie sur un in-ter-valle ou-vert con-tenant $\OML/cmm/m/it/12 a$\OT1/cmr/m/n/12 , sauf eventuellement
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 301--305
+Underfull \hbox (badness 10000) in paragraph at lines 251--253
 
  []
 
 [12]
-Overfull \hbox (31.09525pt too wide) in paragraph at lines 307--315
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 273.
+ (C:\Users\leobe\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
+File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 273.
+
+Overfull \hbox (49.18768pt too wide) in paragraph at lines 269--278
  [] 
  []
 
-[13] [14]
-Underfull \hbox (badness 10000) in paragraph at lines 348--352
+[13]
+Overfull \hbox (9.92645pt too wide) in paragraph at lines 311--317
+ [] 
+ []
+
+
+Overfull \hbox (13.10678pt too wide) in paragraph at lines 320--327
+ [] 
+ []
+
+
+Overfull \hbox (27.04498pt too wide) in paragraph at lines 357--361
+\OT1/cmr/m/n/12 Soit $\OML/cmm/m/it/12 f$ \OT1/cmr/m/n/12 une fonc-tion definie sur un in-ter-valle ou-vert con-tenant $\OML/cmm/m/it/12 a$\OT1/cmr/m/n/12 , sauf eventuellement
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 357--361
+
+ []
+
+[14]
+Overfull \hbox (31.09525pt too wide) in paragraph at lines 363--371
+ [] 
+ []
+
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 411--413
+
+ []
+
+[16] [17]
+Underfull \hbox (badness 10000) in paragraph at lines 432--436
 
  []
 
 
-Overfull \hbox (17.52449pt too wide) in paragraph at lines 367--367
+Overfull \hbox (17.52449pt too wide) in paragraph at lines 451--451
 []\OT1/cmr/bx/n/14.4 Point an-guleux, a tangeante ver-ti-cale, de re-brousse-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 370--371
+Underfull \hbox (badness 10000) in paragraph at lines 454--455
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 374--377
+Underfull \hbox (badness 10000) in paragraph at lines 458--461
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 374--377
+Underfull \hbox (badness 10000) in paragraph at lines 458--461
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 377--378
+Underfull \hbox (badness 10000) in paragraph at lines 461--462
 
  []
 
-[15]
-Overfull \hbox (15.58595pt too wide) in paragraph at lines 381--384
+[18]
+Overfull \hbox (15.58595pt too wide) in paragraph at lines 465--468
 \OT1/cmr/m/it/12 ce point est un \OT1/cmr/bx/it/12 point de re-brousse-ment \OT1/cmr/m/it/12 si de plus la lim-ite $[][] \OML/cmm/m/it/12 f[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 )$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 381--384
+Underfull \hbox (badness 10000) in paragraph at lines 465--468
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 381--384
+Underfull \hbox (badness 10000) in paragraph at lines 465--468
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 387--388
+Underfull \hbox (badness 10000) in paragraph at lines 471--472
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [16]
-Overfull \hbox (18.54387pt too wide) in paragraph at lines 413--426
+ [19]
+Overfull \hbox (18.54387pt too wide) in paragraph at lines 497--510
  [] 
  []
 
-[17]
-Underfull \hbox (badness 10000) in paragraph at lines 432--467
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 532--567
 
  []
 
 
-Overfull \hbox (63.23473pt too wide) in paragraph at lines 432--467
+Overfull \hbox (63.23473pt too wide) in paragraph at lines 532--567
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 432--467
+Underfull \hbox (badness 10000) in paragraph at lines 532--567
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 432--467
+Underfull \hbox (badness 10000) in paragraph at lines 532--567
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 432--467
+Underfull \hbox (badness 10000) in paragraph at lines 532--567
 
  []
 
 
-Overfull \hbox (4.20683pt too wide) in paragraph at lines 432--467
+Overfull \hbox (4.20683pt too wide) in paragraph at lines 532--567
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 432--467
+Underfull \hbox (badness 10000) in paragraph at lines 532--567
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 432--467
+Underfull \hbox (badness 10000) in paragraph at lines 532--567
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 432--467
+Underfull \hbox (badness 10000) in paragraph at lines 532--567
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 432--467
+Underfull \hbox (badness 10000) in paragraph at lines 532--567
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 432--467
+Underfull \hbox (badness 10000) in paragraph at lines 532--567
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 432--467
+Underfull \hbox (badness 10000) in paragraph at lines 532--567
 
  []
 
-[18]
-Underfull \hbox (badness 10000) in paragraph at lines 469--470
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 482--483
+[21] [22]
+Underfull \hbox (badness 10000) in paragraph at lines 569--570
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 491--499
+Underfull \hbox (badness 10000) in paragraph at lines 582--583
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 491--499
+Underfull \hbox (badness 10000) in paragraph at lines 591--599
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 491--499
+Underfull \hbox (badness 10000) in paragraph at lines 591--599
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 491--499
+Underfull \hbox (badness 10000) in paragraph at lines 591--599
 
  []
 
 
-Overfull \hbox (3.85811pt too wide) in paragraph at lines 491--499
+Underfull \hbox (badness 10000) in paragraph at lines 591--599
+
+ []
+
+
+Overfull \hbox (3.85811pt too wide) in paragraph at lines 591--599
 [] \OT1/cmr/m/it/12 Mul-ti-plier chaque par-tie en-tre elles :$\OT1/cmr/m/n/12 2\OML/cmm/m/it/12 sin\OT1/cmr/m/n/12 (2\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12  \OML/cmm/m/it/12 cos\OT1/cmr/m/n/12 (2\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12  \OT1/cmr/m/n/12 2 = 4\OML/cmm/m/it/12 sin\OT1/cmr/m/n/12 (2\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 cos\OT1/cmr/m/n/12 (2\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 )$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 491--499
+Underfull \hbox (badness 10000) in paragraph at lines 591--599
 
  []
 
-[19]
-Underfull \hbox (badness 10000) in paragraph at lines 506--509
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 606--609
 
  []
 
-[20] [21] [22] (aidememoire2021.aux) ) 
+[24] [25] [26] (d:/Aide mémoire 2021\aidememoire2021.aux) ) 
 Here is how much of TeX's memory you used:
- 3141 strings out of 478864
- 43495 string characters out of 2865148
- 354094 words of memory out of 3000000
- 21035 multiletter control sequences out of 15000+600000
- 416746 words of font info for 76 fonts, out of 8000000 for 9000
+ 3106 strings out of 479321
+ 44622 string characters out of 2856583
+ 342353 words of memory out of 3000000
+ 20532 multiletter control sequences out of 15000+600000
+ 419288 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,11n,72p,314b,249s stack positions out of 5000i,500n,10000p,200000b,80000s
- <C:\Users\Léo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcti1200.pk> <C:\Users\Léo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/mixteX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/mixteX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/mixteX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/mixteX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/mixteX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/mixteX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/mixteX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/mixteX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/mixteX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/mixteX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/mixteX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/mixteX/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/mixteX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/mixteX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/mixteX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/mixteX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/mixteX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on aidememoire2021.pdf (22 pages, 242630 bytes).
+ 70i,11n,77p,434b,259s stack positions out of 5000i,500n,10000p,200000b,80000s
+ <C:\Users\leobe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcti1200.pk> <C:\Users\leobe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/leobe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmbsy6.pfb><C:/Users/leobe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmbsy8.pfb><C:/Users/leobe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/leobe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/leobe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/leobe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/leobe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/leobe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/leobe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/leobe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/leobe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb><C:/Users/leobe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/leobe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/leobe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/leobe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/leobe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/leobe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Users/leobe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/leobe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/leobe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/leobe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/leobe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on "d:/Aide mémoire 2021\aidememoire2021.pdf" (26 pages, 275144 bytes).
 PDF statistics:
- 168 PDF objects out of 1000 (max. 8388607)
+ 184 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
