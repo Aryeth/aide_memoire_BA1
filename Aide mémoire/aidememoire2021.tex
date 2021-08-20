@@ -599,6 +599,7 @@ Si $f$ est une fonction dérivable en $a$ et g une fonction dérivable en $f(a)$
     \textcircled{4} Multiplier chaque partie entre elles :$2sin(2x)*cos(2x)*2 = 4sin(2x)cos(2x)$\\
 \end{exemple}
 \newpage
+\section{Intégrales}
 \subsection{Primitives d'une fonction}
 \begin{definition}
     Soit $f$ une fonction définie sur un intervalle $I$ (une partie de $\mathbb{R}$). Une fonction dérivable $F$ est une \textbf{primitive} de $f$ sur $I$ si\\
@@ -614,6 +615,7 @@ Si $F$ est primitive de $f$ sur $I$, alors toute primitive de $f$ est de la form
         \hline
     \end{tabular}
 \end{center}
+\newpage
 \subsubsection{Primitives de fonctions élémentaires}
 \begin{center}
     \begin{tabular}{|c|c|}
@@ -622,8 +624,9 @@ Si $F$ est primitive de $f$ sur $I$, alors toute primitive de $f$ est de la form
         \hline
         $a$ & $ax+c \ \ \ c \in \mathbb{R}$\\
         $x^q \ \ q \in \mathbb{Q} \setminus \{-1\}$ & $\frac{x^{q+1}}{q+1}+c \ \ \ c \in \mathbb{R}$\\
-        $\frac{1}{x}$ & $ln \lvert x \rvert + c \ \ \ c \in \mathbb{R}$\\
+        $\frac{1}{x}$ & ln $\lvert x \rvert + c \ \ \ c \in \mathbb{R}$\\
         $e^x$ & $e^x + c \ \ \ c \in \mathbb{R}$\\
+        ln $x \ \ \ a \not = 1, a>0, x>0$& $x($ln $x-1)+c \ \ \ c \in \mathbb{R}$\\
         $cos(x)$ & $sin(x)+c \ \ \ c \in \mathbb{R}$\\
         $sin(x)$ & $-cos(x)+c \ \ \ c \in \mathbb{R}$\\
         \hline
@@ -636,12 +639,14 @@ Si $F$ est primitive de $f$ sur $I$, alors toute primitive de $f$ est de la form
        $f(x)$ & $\int f(x)dx$\\
         \hline
         $\frac{1}{a^2+x^2} \ \ \ a \not = 0$& $\frac{1}{a}Arctg(\frac{x}{a})+c \ \ \ c \in \mathbb{R}$\\
-        
+        $a^x \ \ \ a \not = 1, a>0$& $\frac{a^x}{ln(a)}+c \ \ \ c \in \mathbb{R}$\\
+        $log_ax \ \ \ a \not = 1, a>0, x>0$& $x(log_ax-log_ae)+c \ \ \ c \in \mathbb{R}$\\
+    
         \hline
     \end{tabular}
 \end{center}
 \newpage
-\subsection{Propriétés élémentaires}
+\subsection{Règles d'intégration}
 Soit $f$ et $g$ deux fonctions admettant une primitive sur un intervalle $I$
 \begin{center}
     \begin{tabular}{|c|}
