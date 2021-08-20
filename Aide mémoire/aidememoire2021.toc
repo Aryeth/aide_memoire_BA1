@@ -43,7 +43,7 @@
 \contentsline {subsection}{\numberline {1.4.7}Propriétés utiles}{21}{}%
 \contentsline {subsection}{\numberline {1.4.8}Règles de dérivation}{23}{}%
 \contentsline {subsection}{\numberline {1.4.9}Primitives d'une fonction}{24}{}%
-\contentsline {subsection}{\numberline {1.4.10}Primitives de fonctions élémentaires}{24}{}%
-\contentsline {subsection}{\numberline {1.4.11}Primitives de fonctions particulières}{24}{}%
-\contentsline {subsection}{\numberline {1.4.12}Propriétés élémentaires}{25}{}%
+\contentsline {subsubsection}{Primitives de fonctions élémentaires}{24}{}%
+\contentsline {subsubsection}{Primitives de fonctions particulières}{24}{}%
+\contentsline {subsection}{\numberline {1.4.10}Propriétés élémentaires}{25}{}%
 \contentsline {section}{\numberline {1.5}Applications des dérivées}{26}{}%
