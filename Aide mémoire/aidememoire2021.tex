@@ -477,33 +477,34 @@ $$\\
 \pagebreak
 $\textbf{Dérivées de fonction élémentaires}$
 \begin{center}
-    \begin{tabular}{ |c c|c c| } 
+    \begin{tabular}{ |c | c| } 
      \hline
-     $f(x)$& & $f'(x)$ &\\ 
+     $f(x)$& $f'(x)$\\ 
      \hline
-     $c$ & & 0 &\\ 
-     $x$ & & 1 &\\ 
-     $x^n$ & $n\in \mathbb{N^*}$ & $n*x^{n-1}$ & \\ 
-     $\frac{1}{x}$ & & $\mathLarge{-\frac{1}{x^2}}$  & $ x\not = 0$ \\ 
-     $\sqrt{x}$ & & $\mathLarge{\frac{1}{2\sqrt{x}}}$ &$x>0$ \\ 
-     $cos(x)$ & & $-sin(x)$ &\\
-     $\lvert x \rvert$ & & $sgn(x)$ & $x \not = 0$\\ 
+     $c$ & 0 \\ 
+     $x$ & 1 \\ 
+     $x^n$ \ \ \ $n\in \mathbb{N^*}$ & $n*x^{n-1}$  \\ 
+     $e^u$  & $u' e^u$ \\ 
+     $\frac{1}{x}$ & $\mathLarge{-\frac{1}{x^2}}$ \ \ \ $ x\not = 0$ \\ 
+     $\sqrt{x}$ & $\mathLarge{\frac{1}{2\sqrt{x}}}$ \ \ \ $x>0$ \\ 
+     $cos(x)$ & $-sin(x)$\\
+     $\lvert x \rvert$ & $sgn(x)$\ \ \ $x \not = 0$\\ 
 
      \hline
     \end{tabular}
 \end{center}
     $\textbf{Dérivées de fonction particulières}$
     \begin{center}
-    \begin{tabular}{ |c c|c c| }
+    \begin{tabular}{ |c |c | }
      \hline
-     $f(x)$& & $f'(x)$ &\\ 
+     $f(x)$& $f'(x)$ \\ 
      \hline
-     $x^q$ & $q \in \mathbb{Q}$& $qx^{q-1}$ &\\ 
-     $tan(x)$ & & $\mathLarge{\frac{1}{cos^2(x)}} = 1+tan^2(x)$&\\ 
-     $cot(x)$ &  & $\mathLarge{\frac{-1}{sin^2(x)}} = -1-cot^2(x)$& \\ 
-     $arcsin(x)$ & & $\mathLarge{\frac{1}{\sqrt{1-x^2}}}$  & \\ 
-     $arccos(x)$ & & $\mathLarge{\frac{-1}{\sqrt{1-x^2}}}$  & \\
-     $arctan(x)$ & & $\mathLarge{\frac{1}{1+x^2}}$  & \\
+     $x^q$ \ \ \ $q \in \mathbb{Q}$& $qx^{q-1}$ \\  
+     $tan(x)$ &  $\mathLarge{\frac{1}{cos^2(x)}} = 1+tan^2(x)$\\ 
+     $cot(x)$ &   $\mathLarge{\frac{-1}{sin^2(x)}} = -1-cot^2(x)$ \\ 
+     $arcsin(x)$ &  $\mathLarge{\frac{1}{\sqrt{1-x^2}}}$   \\ 
+     $arccos(x)$ & $\mathLarge{\frac{-1}{\sqrt{1-x^2}}}$  \\
+     $arctan(x)$ & $\mathLarge{\frac{1}{1+x^2}}$   \\
 
      \hline
     \end{tabular}
@@ -613,16 +614,29 @@ Si $F$ est primitive de $f$ sur $I$, alors toute primitive de $f$ est de la form
         \hline
     \end{tabular}
 \end{center}
-\subsection{Primitives des fonctions élémentaires}
+\subsection{Primitives de fonctions élémentaires}
 \begin{center}
     \begin{tabular}{|c|c|}
         \hline
        $f(x)$ & $\int f(x)dx$\\
         \hline
-        $1$ & $x+c \ \ \ c \in \mathbb{R}$\\
+        $a$ & $ax+c \ \ \ c \in \mathbb{R}$\\
         $x^q \ \ q \in \mathbb{Q} \setminus \{-1\}$ & $\frac{x^{q+1}}{q+1}+c \ \ \ c \in \mathbb{R}$\\
+        $\frac{1}{x}$ & $ln \lvert x \rvert + c \ \ \ c \in \mathbb{R}$\\
+        $e^x$ & $e^x + c \ \ \ c \in \mathbb{R}$\\
         $cos(x)$ & $sin(x)+c \ \ \ c \in \mathbb{R}$\\
         $sin(x)$ & $-cos(x)+c \ \ \ c \in \mathbb{R}$\\
+        \hline
+    \end{tabular}
+\end{center}
+\subsection{Primitives de fonctions particulières}
+\begin{center}
+    \begin{tabular}{|c|c|}
+        \hline
+       $f(x)$ & $\int f(x)dx$\\
+        \hline
+        $\frac{1}{a^2+x^2} \ \ \ a \not = 0$& $\frac{1}{a}Arctg(\frac{x}{a})+c \ \ \ c \in \mathbb{R}$\\
+        
         \hline
     \end{tabular}
 \end{center}
