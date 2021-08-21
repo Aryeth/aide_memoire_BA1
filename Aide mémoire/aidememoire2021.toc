@@ -43,8 +43,11 @@
 \contentsline {subsection}{\numberline {1.4.7}Propriétés utiles}{21}{}%
 \contentsline {subsection}{\numberline {1.4.8}Règles de dérivation}{23}{}%
 \contentsline {section}{\numberline {1.5}Intégrales}{24}{}%
-\contentsline {subsection}{\numberline {1.5.1}Primitives d'une fonction}{24}{}%
+\contentsline {subsection}{\numberline {1.5.1}Introduction}{24}{}%
+\contentsline {subsubsection}{Somme de Riemann supérieure}{24}{}%
+\contentsline {subsubsection}{Somme de Riemann inférieure}{24}{}%
+\contentsline {subsection}{\numberline {1.5.2}Primitives d'une fonction}{24}{}%
 \contentsline {subsubsection}{Primitives de fonctions élémentaires}{25}{}%
 \contentsline {subsubsection}{Primitives de fonctions particulières}{25}{}%
-\contentsline {subsection}{\numberline {1.5.2}Règles d'intégration}{26}{}%
+\contentsline {subsection}{\numberline {1.5.3}Règles d'intégration}{26}{}%
 \contentsline {section}{\numberline {1.6}Applications des dérivées}{27}{}%

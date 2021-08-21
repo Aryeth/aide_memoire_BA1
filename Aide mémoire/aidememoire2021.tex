@@ -600,6 +600,29 @@ Si $f$ est une fonction dérivable en $a$ et g une fonction dérivable en $f(a)$
 \end{exemple}
 \newpage
 \section{Intégrales}
+\subsection{Introduction}
+Soient a $<$ b deux éléments de $\mathbb{R}$. Le sous-ensemble fini et ordonné
+\begin{center}
+    $\sigma = \{x_0 = a, x_1,$ ... $,x_{n-1},x_n =b\}$ avec $a < x_1< ... < x_{n-1} < b $
+\end{center}
+est appelé une \textbf{subdivision} de l'intégrale [a;b].
+
+\subsubsection{Somme de Riemann supérieure}
+Soit $\sigma = \{x_0, x_1, ... ,x_n\}$ une subdivision de $[a,b]$ et $f:[a,b] \rightarrow \mathbb{R}$ une fonction continue.\\
+On nomme \textbf{somme de Riemann Supérieure} le nombre :
+\begin{center}
+    $\bar{S}_{\sigma}(f)=  \sum_{k=1}^{n} f(t_k)(x_k-x_{k-1})$
+\end{center}
+avec  $f(t_k) = $sup$ \{f(t), t_k \in [x_{k - 1}, x_k] \}$
+
+\subsubsection{Somme de Riemann inférieure}
+Soit $\sigma = \{x_0, x_1, ... ,x_n\}$ une subdivision de $[a,b]$ et $f:[a,b] \rightarrow \mathbb{R}$ une fonction continue.\\
+On nomme \textbf{somme de Riemann Inférieure} le nombre :
+\begin{center}
+    $\underbar{S}_{\sigma}(f)=  \sum_{k=1}^{n} f(t_k)(x_k-x_{k-1})$
+\end{center}
+avec  $f(t_k) = $inf$ \{f(t), t_k \in [x_{k - 1}, x_k] \}$
+
 \subsection{Primitives d'une fonction}
 \begin{definition}
     Soit $f$ une fonction définie sur un intervalle $I$ (une partie de $\mathbb{R}$). Une fonction dérivable $F$ est une \textbf{primitive} de $f$ sur $I$ si\\
