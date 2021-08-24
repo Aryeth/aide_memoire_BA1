@@ -51,8 +51,8 @@
 \contentsline {subsubsection}{Théorème fondamental du calcul intégral}{25}{}%
 \contentsline {subsection}{\numberline {1.5.3}Intégration par parties}{25}{}%
 \contentsline {subsection}{\numberline {1.5.4}Changement de variable}{25}{}%
-\contentsline {subsubsection}{Changements de variables communs / recommandés}{25}{}%
-\contentsline {subsubsection}{Primitives de fonctions élémentaires}{26}{}%
-\contentsline {subsubsection}{Primitives de fonctions particulières}{26}{}%
-\contentsline {subsection}{\numberline {1.5.5}Règles d'intégration}{27}{}%
-\contentsline {section}{\numberline {1.6}Applications des dérivées}{28}{}%
+\contentsline {subsubsection}{Changements de variables communs / recommandés}{26}{}%
+\contentsline {subsubsection}{Primitives de fonctions élémentaires}{27}{}%
+\contentsline {subsubsection}{Primitives de fonctions particulières}{27}{}%
+\contentsline {subsection}{\numberline {1.5.5}Règles d'intégration}{28}{}%
+\contentsline {section}{\numberline {1.6}Applications des dérivées}{29}{}%
