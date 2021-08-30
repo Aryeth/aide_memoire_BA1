@@ -36,23 +36,25 @@
 \contentsline {section}{\numberline {1.4}Dérivées}{20}{}%
 \contentsline {subsection}{\numberline {1.4.1}Tangeante (dérivée) en $x_0$}{20}{}%
 \contentsline {subsection}{\numberline {1.4.2}Nombre dérivé à gauche, à droite}{20}{}%
-\contentsline {subsection}{\numberline {1.4.3}Point anguleux, à tangeante verticale, de rebroussement}{20}{}%
+\contentsline {subsection}{\numberline {1.4.3}Point anguleux, à tangeante verticale, de rebroussement}{21}{}%
 \contentsline {subsection}{\numberline {1.4.4}fonction dérivée}{21}{}%
 \contentsline {subsection}{\numberline {1.4.5}Dérivée d'ordre supérieur}{23}{}%
 \contentsline {subsection}{\numberline {1.4.6}Règle de Bernouilli-L'Hospital}{23}{}%
-\contentsline {subsection}{\numberline {1.4.7}Propriétés utiles}{23}{}%
-\contentsline {subsection}{\numberline {1.4.8}Règles de dérivation}{25}{}%
-\contentsline {section}{\numberline {1.5}Intégrales}{26}{}%
-\contentsline {subsection}{\numberline {1.5.1}Introduction}{26}{}%
-\contentsline {subsubsection}{Somme de Riemann supérieure}{26}{}%
-\contentsline {subsubsection}{Somme de Riemann inférieure}{26}{}%
-\contentsline {subsubsection}{Intégrale Bornée}{26}{}%
-\contentsline {subsection}{\numberline {1.5.2}Primitives d'une fonction}{27}{}%
-\contentsline {subsubsection}{Théorème fondamental du calcul intégral}{27}{}%
-\contentsline {subsection}{\numberline {1.5.3}Intégration par parties}{27}{}%
-\contentsline {subsection}{\numberline {1.5.4}Changement de variable}{28}{}%
-\contentsline {subsubsection}{Règles de Bioche}{28}{}%
-\contentsline {subsection}{\numberline {1.5.5}Primitives de fonctions élémentaires}{29}{}%
-\contentsline {subsection}{\numberline {1.5.6}Primitives de fonctions particulières}{29}{}%
-\contentsline {subsection}{\numberline {1.5.7}Règles d'intégration}{30}{}%
-\contentsline {section}{\numberline {1.6}Applications des dérivées}{31}{}%
+\contentsline {subsection}{\numberline {1.4.7}Théorème de Rolle}{24}{}%
+\contentsline {subsection}{\numberline {1.4.8}Théorème des accroisements finis (TAF)}{24}{}%
+\contentsline {subsection}{\numberline {1.4.9}Règles de dérivation}{25}{}%
+\contentsline {subsection}{\numberline {1.4.10}Remarques}{25}{}%
+\contentsline {section}{\numberline {1.5}Intégrales}{27}{}%
+\contentsline {subsection}{\numberline {1.5.1}Introduction}{27}{}%
+\contentsline {subsubsection}{Somme de Riemann supérieure}{27}{}%
+\contentsline {subsubsection}{Somme de Riemann inférieure}{27}{}%
+\contentsline {subsubsection}{Intégrale Bornée}{27}{}%
+\contentsline {subsection}{\numberline {1.5.2}Primitives d'une fonction}{28}{}%
+\contentsline {subsubsection}{Théorème fondamental du calcul intégral}{28}{}%
+\contentsline {subsection}{\numberline {1.5.3}Intégration par parties}{28}{}%
+\contentsline {subsection}{\numberline {1.5.4}Changement de variable}{29}{}%
+\contentsline {subsubsection}{Règles de Bioche}{29}{}%
+\contentsline {subsection}{\numberline {1.5.5}Primitives de fonctions élémentaires}{30}{}%
+\contentsline {subsection}{\numberline {1.5.6}Primitives de fonctions particulières}{30}{}%
+\contentsline {subsection}{\numberline {1.5.7}Règles d'intégration}{31}{}%
+\contentsline {section}{\numberline {1.6}Applications des dérivées}{32}{}%
