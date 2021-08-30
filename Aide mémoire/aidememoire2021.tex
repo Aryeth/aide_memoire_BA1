@@ -669,10 +669,23 @@ $f,g$ soient dérivables sur $I$, et $f',g'$ sont continues sur $I$. Alors :\\
     \ \\
     ou plus généralement :\\
     \ \\
-    $\int u*v' = u*v- \int u'* v $\\
+    $u*v = \int u*v' + \int u'* v$\\
+    \ \\
+    on peut le montrer en intégrant :\\
+    \ \\
+    $(u*v)'= u'*v + u*v'$
 \end{center}
 \subsection{Changement de variable}
-à remplir
+Soit $I$ un intervalle réel, $\phi : [a,b] \rightarrow I$ une fonction dérivable avec la dérivée intégrable, et $f: I \rightarrow \mathbb{R}$ une fonction continue. Alors :
+\ \\
+\begin{center}
+    $\int_{a}^{b} f(\phi(t))\phi'(t)dt = \int_{\phi(a)}^{\phi(b)} f(x) dx$\\
+\end{center}
+Par définition, la transformation
+\begin{center}
+    $x = \phi(t) $ avec $ t\in I$
+\end{center}
+est appelé un \textbf{changement de variable.}
 \subsubsection{Changements de variables communs / recommandés}
 à remplir
 \newpage
