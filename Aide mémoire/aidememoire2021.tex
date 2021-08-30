@@ -676,20 +676,37 @@ $f,g$ soient dérivables sur $I$, et $f',g'$ sont continues sur $I$. Alors :\\
     $(u*v)'= u'*v + u*v'$
 \end{center}
 \subsection{Changement de variable}
-Soit $I$ un intervalle réel, $\phi : [a,b] \rightarrow I$ une fonction dérivable avec la dérivée intégrable, et $f: I \rightarrow \mathbb{R}$ une fonction continue. Alors :
+Soit $I$ un intervalle réel, $\varphi : [a,b] \rightarrow I$ une fonction dérivable avec la dérivée intégrable, et $f: I \rightarrow \mathbb{R}$ une fonction continue. Alors :
 \ \\
 \begin{center}
-    $\int_{a}^{b} f(\phi(t))\phi'(t)dt = \int_{\phi(a)}^{\phi(b)} f(x) dx$\\
+    $\int_{a}^{b} f(\varphi(t))\varphi'(t)dt = \int_{\varphi(a)}^{\varphi(b)} f(x) dx$\\
 \end{center}
 Par définition, la transformation
 \begin{center}
-    $x = \phi(t) $ avec $ t\in I$
+    $x = \varphi(t) $ avec $ t\in I$
 \end{center}
 est appelé un \textbf{changement de variable.}
-\subsubsection{Changements de variables communs / recommandés}
-à remplir
+\subsubsection{Règles de Bioche}
+Les règles de Bioches sont des règles utiles pour les changement de variables dans des intégrales contenant des fonctions trigonométriques.
+Soit l'intégrale 
+\begin{center}
+    $\int_{a}^{b} f(x) dx$ , telle que $f(x)=\frac{P(sin(x),cos(x))}{Q(sin(x),cos(x))}$
+\end{center} avec $P$ et $Q$ des polynômes a deux variables, à coefficients réels.
+On pose de plus 
+\begin{center}
+    $\omega(t) = f(x)dx$
+\end{center}
+Ainsi :
+\begin{itemize}
+    \item si $\omega(-t) = \omega(t)$, un bon changement de variable est : $\varphi(t)=cos(t)$ 
+    \item si $\omega(\pi-t) = \omega(t)$ un bon changement de variable est : $\varphi(t)=sin(t)$
+    \item si $\omega(\pi+t) = \omega(t)$ un bon changement de variable est : $\varphi(t)=tan(t)$
+    \item si deux de ces trois précédents points sont vraies,  un bon changement de variable est : $\varphi(t)=cos(2t)$
+    \item dans les autres cas,  un bon changement de variable est : $\varphi(t)=tan(t/2)$
+\end{itemize}
+
 \newpage
-\subsubsection{Primitives de fonctions élémentaires}
+\subsection{Primitives de fonctions élémentaires}
 \begin{center}
     \begin{tabular}{|c|c|}
         \hline
@@ -705,7 +722,7 @@ est appelé un \textbf{changement de variable.}
         \hline
     \end{tabular}
 \end{center}
-\subsubsection{Primitives de fonctions particulières}
+\subsection{Primitives de fonctions particulières}
 \begin{center}
     \begin{tabular}{|c|c|}
         \hline
