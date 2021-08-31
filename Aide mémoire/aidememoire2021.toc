@@ -42,8 +42,10 @@
 \contentsline {subsection}{\numberline {1.4.6}Règle de Bernouilli-L'Hospital}{23}{}%
 \contentsline {subsection}{\numberline {1.4.7}Théorème de Rolle}{24}{}%
 \contentsline {subsection}{\numberline {1.4.8}Théorème des accroisements finis (TAF)}{24}{}%
-\contentsline {subsection}{\numberline {1.4.9}Règles de dérivation}{25}{}%
-\contentsline {subsection}{\numberline {1.4.10}Remarques}{25}{}%
+\contentsline {subsection}{\numberline {1.4.9}Polynôme de taylor}{24}{}%
+\contentsline {subsection}{\numberline {1.4.10}Développement limité}{24}{}%
+\contentsline {subsection}{\numberline {1.4.11}Règles de dérivation}{25}{}%
+\contentsline {subsection}{\numberline {1.4.12}Remarques}{25}{}%
 \contentsline {section}{\numberline {1.5}Intégrales}{27}{}%
 \contentsline {subsection}{\numberline {1.5.1}Introduction}{27}{}%
 \contentsline {subsubsection}{Somme de Riemann supérieure}{27}{}%
