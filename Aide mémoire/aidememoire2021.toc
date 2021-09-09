@@ -1,62 +1,67 @@
 \contentsline {chapter}{\numberline {1}Analyse}{7}{}%
 \contentsline {section}{\numberline {1.1}Notions de bases}{7}{}%
 \contentsline {subsection}{\numberline {1.1.1}Introduction}{7}{}%
-\contentsline {subsection}{\numberline {1.1.2}Intervalle}{7}{}%
+\contentsline {subsection}{\numberline {1.1.2}Intervalles}{7}{}%
 \contentsline {subsubsection}{Intervalles bornés}{8}{}%
 \contentsline {subsubsection}{Intervalles non bornés}{8}{}%
 \contentsline {subsection}{\numberline {1.1.3}Valeur absolue}{8}{}%
 \contentsline {subsection}{\numberline {1.1.4}Partie entière}{8}{}%
-\contentsline {section}{\numberline {1.2}Fonction réelle}{9}{}%
-\contentsline {subsection}{\numberline {1.2.1}Représentation graphique}{9}{}%
-\contentsline {subsection}{\numberline {1.2.2}Parité d'une fonction}{10}{}%
-\contentsline {subsection}{\numberline {1.2.3}Périodicité d'une fonction}{10}{}%
-\contentsline {subsection}{\numberline {1.2.4}Croissance et décroissance d'une fonction}{10}{}%
-\contentsline {subsection}{\numberline {1.2.5}Maximum et minimum d'une fonction}{11}{}%
-\contentsline {subsection}{\numberline {1.2.6}Opérations sur les fonctions}{12}{}%
-\contentsline {subsection}{\numberline {1.2.7}Injection, surjection, bijection}{13}{}%
-\contentsline {subsection}{\numberline {1.2.8}Fonction réciproque}{13}{}%
-\contentsline {section}{\numberline {1.3}Limites}{14}{}%
-\contentsline {subsection}{\numberline {1.3.1}Limite : définition}{14}{}%
-\contentsline {subsection}{\numberline {1.3.2}Limite à droite, limite à gauche}{14}{}%
-\contentsline {subsection}{\numberline {1.3.3}Propriétés des limites}{14}{}%
-\contentsline {subsection}{\numberline {1.3.4}Théorème des deux gendarmes}{15}{}%
-\contentsline {subsection}{\numberline {1.3.5}Critère de d'Alembert}{15}{}%
-\contentsline {subsection}{\numberline {1.3.6}Critère de Cauchy}{15}{}%
-\contentsline {subsection}{\numberline {1.3.7}Continuité}{15}{}%
-\contentsline {subsection}{\numberline {1.3.8}Limites de fonctions composées}{15}{}%
-\contentsline {subsection}{\numberline {1.3.9}Propriétés des fonctions continues}{16}{}%
-\contentsline {subsection}{\numberline {1.3.10}Limites infinies}{17}{}%
-\contentsline {subsection}{\numberline {1.3.11}Propriétés des limites infinies}{17}{}%
-\contentsline {subsection}{\numberline {1.3.12}Limites à l'infini}{17}{}%
-\contentsline {subsection}{\numberline {1.3.13}Asymptotes}{18}{}%
-\contentsline {subsection}{\numberline {1.3.14}Astuces de calcul}{18}{}%
-\contentsline {subsubsection}{Division euclidienne}{18}{}%
-\contentsline {subsubsection}{Règle de Bernouilli-L'Hospital}{18}{}%
-\contentsline {subsubsection}{Limites remarquables}{19}{}%
-\contentsline {section}{\numberline {1.4}Dérivées}{20}{}%
-\contentsline {subsection}{\numberline {1.4.1}Tangeante (dérivée) en $x_0$}{20}{}%
-\contentsline {subsection}{\numberline {1.4.2}Nombre dérivé à gauche, à droite}{20}{}%
-\contentsline {subsection}{\numberline {1.4.3}Point anguleux, à tangeante verticale, de rebroussement}{21}{}%
-\contentsline {subsection}{\numberline {1.4.4}fonction dérivée}{21}{}%
-\contentsline {subsection}{\numberline {1.4.5}Dérivée d'ordre supérieur}{23}{}%
-\contentsline {subsection}{\numberline {1.4.6}Règle de Bernouilli-L'Hospital}{23}{}%
-\contentsline {subsection}{\numberline {1.4.7}Théorème de Rolle}{24}{}%
-\contentsline {subsection}{\numberline {1.4.8}Théorème des accroisements finis (TAF)}{24}{}%
-\contentsline {subsection}{\numberline {1.4.9}Polynôme de taylor}{24}{}%
-\contentsline {subsection}{\numberline {1.4.10}Développement limité}{24}{}%
-\contentsline {subsection}{\numberline {1.4.11}Règles de dérivation}{25}{}%
-\contentsline {subsection}{\numberline {1.4.12}Remarques}{25}{}%
-\contentsline {section}{\numberline {1.5}Intégrales}{27}{}%
-\contentsline {subsection}{\numberline {1.5.1}Introduction}{27}{}%
-\contentsline {subsubsection}{Somme de Riemann supérieure}{27}{}%
-\contentsline {subsubsection}{Somme de Riemann inférieure}{27}{}%
-\contentsline {subsubsection}{Intégrale Bornée}{27}{}%
-\contentsline {subsection}{\numberline {1.5.2}Primitives d'une fonction}{28}{}%
-\contentsline {subsubsection}{Théorème fondamental du calcul intégral}{28}{}%
-\contentsline {subsection}{\numberline {1.5.3}Intégration par parties}{28}{}%
-\contentsline {subsection}{\numberline {1.5.4}Changement de variable}{29}{}%
-\contentsline {subsubsection}{Règles de Bioche}{29}{}%
-\contentsline {subsection}{\numberline {1.5.5}Primitives de fonctions élémentaires}{30}{}%
-\contentsline {subsection}{\numberline {1.5.6}Primitives de fonctions particulières}{30}{}%
-\contentsline {subsection}{\numberline {1.5.7}Règles d'intégration}{31}{}%
-\contentsline {section}{\numberline {1.6}Applications des dérivées}{32}{}%
+\contentsline {subsection}{\numberline {1.1.5}fonction $ln(x)$ et $e$}{9}{}%
+\contentsline {subsubsection}{$e$, le nombre d'Euler}{9}{}%
+\contentsline {subsubsection}{Propriétés}{9}{}%
+\contentsline {subsubsection}{$ln$ : logarithme naturel, aussi appelé logarithme népérien}{9}{}%
+\contentsline {subsubsection}{Propriétés}{9}{}%
+\contentsline {section}{\numberline {1.2}Fonction réelle}{10}{}%
+\contentsline {subsection}{\numberline {1.2.1}Représentation graphique}{10}{}%
+\contentsline {subsection}{\numberline {1.2.2}Parité d'une fonction}{11}{}%
+\contentsline {subsection}{\numberline {1.2.3}Périodicité d'une fonction}{11}{}%
+\contentsline {subsection}{\numberline {1.2.4}Croissance et décroissance d'une fonction}{11}{}%
+\contentsline {subsection}{\numberline {1.2.5}Maximum et minimum d'une fonction}{12}{}%
+\contentsline {subsection}{\numberline {1.2.6}Opérations sur les fonctions}{13}{}%
+\contentsline {subsection}{\numberline {1.2.7}Injection, surjection, bijection}{14}{}%
+\contentsline {subsection}{\numberline {1.2.8}Fonction réciproque}{14}{}%
+\contentsline {section}{\numberline {1.3}Limites}{15}{}%
+\contentsline {subsection}{\numberline {1.3.1}Limite : définition}{15}{}%
+\contentsline {subsection}{\numberline {1.3.2}Limite à droite, limite à gauche}{15}{}%
+\contentsline {subsection}{\numberline {1.3.3}Propriétés des limites}{15}{}%
+\contentsline {subsection}{\numberline {1.3.4}Théorème des deux gendarmes}{16}{}%
+\contentsline {subsection}{\numberline {1.3.5}Critère de d'Alembert}{16}{}%
+\contentsline {subsection}{\numberline {1.3.6}Critère de Cauchy}{16}{}%
+\contentsline {subsection}{\numberline {1.3.7}Continuité}{16}{}%
+\contentsline {subsection}{\numberline {1.3.8}Limites de fonctions composées}{16}{}%
+\contentsline {subsection}{\numberline {1.3.9}Propriétés des fonctions continues}{17}{}%
+\contentsline {subsection}{\numberline {1.3.10}Limites infinies}{18}{}%
+\contentsline {subsection}{\numberline {1.3.11}Propriétés des limites infinies}{18}{}%
+\contentsline {subsection}{\numberline {1.3.12}Limites à l'infini}{18}{}%
+\contentsline {subsection}{\numberline {1.3.13}Asymptotes}{19}{}%
+\contentsline {subsection}{\numberline {1.3.14}Astuces de calcul}{19}{}%
+\contentsline {subsubsection}{Division euclidienne}{19}{}%
+\contentsline {subsubsection}{Règle de Bernouilli-L'Hospital}{19}{}%
+\contentsline {subsubsection}{Limites remarquables}{20}{}%
+\contentsline {section}{\numberline {1.4}Dérivées}{21}{}%
+\contentsline {subsection}{\numberline {1.4.1}Tangeante (dérivée) en $x_0$}{21}{}%
+\contentsline {subsection}{\numberline {1.4.2}Nombre dérivé à gauche, à droite}{21}{}%
+\contentsline {subsection}{\numberline {1.4.3}Point anguleux, à tangeante verticale, de rebroussement}{22}{}%
+\contentsline {subsection}{\numberline {1.4.4}fonction dérivée}{22}{}%
+\contentsline {subsection}{\numberline {1.4.5}Dérivée d'ordre supérieur}{24}{}%
+\contentsline {subsection}{\numberline {1.4.6}Règle de Bernouilli-L'Hospital}{24}{}%
+\contentsline {subsection}{\numberline {1.4.7}Théorème de Rolle}{25}{}%
+\contentsline {subsection}{\numberline {1.4.8}Théorème des accroisements finis (TAF)}{25}{}%
+\contentsline {subsection}{\numberline {1.4.9}Polynôme de taylor}{25}{}%
+\contentsline {subsection}{\numberline {1.4.10}Développement limité}{25}{}%
+\contentsline {subsection}{\numberline {1.4.11}Règles de dérivation}{26}{}%
+\contentsline {subsection}{\numberline {1.4.12}Remarques}{26}{}%
+\contentsline {section}{\numberline {1.5}Intégrales}{28}{}%
+\contentsline {subsection}{\numberline {1.5.1}Introduction}{28}{}%
+\contentsline {subsubsection}{Somme de Riemann supérieure}{28}{}%
+\contentsline {subsubsection}{Somme de Riemann inférieure}{28}{}%
+\contentsline {subsubsection}{Intégrale Bornée}{28}{}%
+\contentsline {subsection}{\numberline {1.5.2}Primitives d'une fonction}{29}{}%
+\contentsline {subsubsection}{Théorème fondamental du calcul intégral}{29}{}%
+\contentsline {subsection}{\numberline {1.5.3}Intégration par parties}{29}{}%
+\contentsline {subsection}{\numberline {1.5.4}Changement de variable}{30}{}%
+\contentsline {subsubsection}{Règles de Bioche}{30}{}%
+\contentsline {subsection}{\numberline {1.5.5}Primitives de fonctions élémentaires}{31}{}%
+\contentsline {subsection}{\numberline {1.5.6}Primitives de fonctions particulières}{31}{}%
+\contentsline {subsection}{\numberline {1.5.7}Règles d'intégration}{32}{}%
+\contentsline {section}{\numberline {1.6}Applications des dérivées}{33}{}%

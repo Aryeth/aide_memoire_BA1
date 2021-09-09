@@ -48,7 +48,7 @@ On désigne par $\emptyset$ \textbf{l'ensemble vide. $\mathbb{N}$ l'ensemble des
     $\emptyset \subset \mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R}$
 \end{center}
 Par définition, on ajoute ${}^*$ pour signifier que le zéro est non compris dans l'ensemble, ${}_+$ pour signifier que l'ensemble ne contient que des positifs, ${}_-$ pour signifier que l'ensemble ne contient que des négatifs.
-\subsection{Intervalle}
+\subsection{Intervalles}
 \begin{definition}
     Un sous ensemble $I \not = \emptyset$ de $\mathbb{R}$ est appelé un
     \textbf{intervalle} si pour tout couple $(a,b) \in I \times I$ vérifiant
@@ -89,6 +89,37 @@ $\lvert x \rvert$ est appelé la \textbf{valeur absolue} de $x$.
     \end{center}
     $[x]$ est appelé la \textbf{partie entière} de $x$, soit le plus grand entier relatif inférieur ou égal à x.
 \end{definition}
+
+\subsection{fonction $ln(x)$ et $e$}
+\subsubsection{$e$, le nombre d'Euler}
+On pose par définition :
+\begin{center}
+    \[ e^x = \sum_{n=0}^{+\infty} \frac{x^n}{n!} \]
+\end{center}
+On nomme \textbf{fonction exponentielle} la fonction exp :${R}\rightarrow \mathbb{R}^{*}_{+}$ définie par $ exp(x)=e^x$.
+Elle est continue, strictement croissante et bijective.\\
+\subsubsection{Propriétés}
+$\forall x,y \in \mathbb{R} : $
+\begin{itemize}
+    \item $e^x>0$
+    \item $e^{x+y}=e^xe^y$
+    \item $e^{-x}= \frac{1}{e^x}$
+    \item$ \lim_{x\to-\infty} e^x = 0$ et $\lim_{x\to+\infty} e^x= +\infty $
+\end{itemize}
+\subsubsection{$ln$ : logarithme naturel, aussi appelé logarithme népérien}
+le logarithme népérien est un logarithme dit "de base $e$", car $ln(e)=1$. Cette fonction est la fonction réciproque de la fonction exponentielle.
+Elle est donc une fonction continue strictement croissante ln : ${R}\rightarrow \mathbb{R}^{*}_{+}$. Ainsi, par défininition
+\[y = ln(x) \Longleftrightarrow x = e^y\]
+\subsubsection{Propriétés}
+$\forall x\in \mathbb{R} , y\in \mathbb{R}^{*}_{+}  : $
+\begin{itemize}
+    \item $ln(e^x) = x$
+    \item $ln(1)=0$ et $ln(e) =1$
+    \item $ln(xy) = ln(x) + ln(y)$ et $ln(\frac{x}{y})= ln(x) -ln(y)$
+    \item $\lim_{x\to0^+} ln(x) = -\infty$ et $\lim_{x\to+\infty} ln(x)= +\infty $
+    \item $a^x = e^{xln(a)}$
+\end{itemize}
+
 \newpage
 \section{Fonction réelle}
 Soit $A$ et $B$ deux sous ensembles de $\mathbb{R}$. On appelle fonction réelle une relation qui lie un élément $x$ de $A$ à un élément y ($f(x)$, la valeur de $f$ en $x$) dans $B$.
