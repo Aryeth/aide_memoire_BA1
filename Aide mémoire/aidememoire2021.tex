@@ -322,9 +322,9 @@ Soit $f$ et $g$ deux fonctions admettant une limitent en $a$ et soit $\lambda \i
     \end{tabular}
 \end{center}
 \subsection{Critère de d'Alembert}
-
+TODO
 \subsection{Critère de Cauchy}
-
+TODO + vérifier le nom
 \subsection{Continuité}
 Une fonction $f$ est \textbf{continue} en $a$ si elle est définie sur une intervalle ouvert contenant $a$ et si $\lim_{x \to a}f(x) = f(a)$\\
 Une fonction $f$ est \textbf{continue} en $a$ si elle est continue en tout point de l'intervalle $I$.\\
@@ -604,7 +604,7 @@ définie par :
 \end{center}
 est appellée \textbf{polynôme de Taylor d'ordre n} de la fonction $f$ autour de $a$.
 \subsection{Développement limité}
-Soient $I$ un intervalle ouvert,
+Soient $I$ un intervalle ouvert, (TODO)
 \newpage
 \subsection{Règles de dérivation}
 Soit $f$ et $g$ deux fonction dérivables en $a$. Soit $c \in \mathbb{R}$\\
@@ -803,6 +803,44 @@ Soit $f$ et $g$ deux fonctions admettant une primitive sur un intervalle $I$
 \end{center}
 \newpage
 \section{Applications des dérivées}
-
+TODO (? -> pas forcément utile pour le BA1)
+\newpage
+\chapter{Algèbre Linéaire}
+\section{Equations linéaires en algèbre linéaire}
+\subsection{Systèmes d'équations linéaires}
+Une équation est dite \textbf{linéaire} d'inconnues $x_1, x_2, ... , x_n$ si on peut l'arranger de la forme :
+\begin{center}
+    $a_1x_1 + a_2x_2 + ... + a_nx_n = b$
+\end{center}
+avec $b$ et les \textbf{coefficients} $a_1, ... ,a_n$ des nombres réels ou complexe dont on connaît (en général) la valeur.
+$n$ est strictement positif.\\
+On appelle \textbf{solution} du système toute liste $(s_1, s_2, ... ,s_n)$ de nombres qui transforme chaque équation en une égalité
+vraie quand on substitue $s_1, ... ,s_n$ respectivement à $x_1, ... , x_n$.\\
+On appelle \textbf{ensemble des solutions} l'ensemble de toutes les solutions posssibles du système linéaire.\\
+On dit de deux systèmes qui partagent le même ensemble de solutions qu'ils sont \textbf{équivalents} (toute solution d'un système est solution du second et vice-versa).\\
+Un système est dit \textbf{compatible (ou consistant)} si il adment au minimum une solution.\\
+Dans le cas inverse, on le dit \textbf{incompatible (ou incosistant)} si il ne possède pas de solution.
+\newpage
+\subsection{Notation matricielle}
+On peut présenter les informations importantes dans un tableau appelé \textbf{matrice}. Par exemple, étant donné le système :
+\begin{center}
+    $ax_1+bx_2+cx_3 = u$\\
+    $dx_1+ex_2+fx_3 = v$\\
+    $gx_1+hx_2+ix_3 = w$
+\end{center}
+on peut représenter la \textbf{matrice des coefficients du système}
+$$ M = \begin{pmatrix}
+  a & b & c \\
+  d & e & f \\
+  g & h & i
+\end{pmatrix}
+$$
+ainsi que la \textbf{matrice complète (ou matrice augmentée)} du système :
+$$ M = \begin{pmatrix}
+    a & b & c & u\\
+    d & e & f & v\\
+    g & h & i & w
+  \end{pmatrix}
+  $$
 
 \end{document}
