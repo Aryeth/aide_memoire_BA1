@@ -65,7 +65,8 @@
 \contentsline {subsection}{\numberline {1.5.6}Primitives de fonctions particulières}{32}{}%
 \contentsline {subsection}{\numberline {1.5.7}Règles d'intégration}{33}{}%
 \contentsline {section}{\numberline {1.6}Applications des dérivées}{34}{}%
-\contentsline {chapter}{\numberline {2}Algèbre Linéaire}{35}{}%
-\contentsline {section}{\numberline {2.1}Equations linéaires en algèbre linéaire}{35}{}%
-\contentsline {subsection}{\numberline {2.1.1}Systèmes d'équations linéaires}{35}{}%
-\contentsline {subsection}{\numberline {2.1.2}Notation matricielle}{36}{}%
+\contentsline {section}{\numberline {1.7}Equations Différentielles}{35}{}%
+\contentsline {chapter}{\numberline {2}Algèbre Linéaire}{37}{}%
+\contentsline {section}{\numberline {2.1}Equations linéaires en algèbre linéaire}{37}{}%
+\contentsline {subsection}{\numberline {2.1.1}Systèmes d'équations linéaires}{37}{}%
+\contentsline {subsection}{\numberline {2.1.2}Notation matricielle}{38}{}%
