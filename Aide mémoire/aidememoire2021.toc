@@ -25,47 +25,52 @@
 \contentsline {subsection}{\numberline {1.3.2}Limite à droite, limite à gauche}{15}{}%
 \contentsline {subsection}{\numberline {1.3.3}Propriétés des limites}{15}{}%
 \contentsline {subsection}{\numberline {1.3.4}Théorème des deux gendarmes}{16}{}%
-\contentsline {subsection}{\numberline {1.3.5}Critère de d'Alembert}{16}{}%
-\contentsline {subsection}{\numberline {1.3.6}Critère de Cauchy}{16}{}%
-\contentsline {subsection}{\numberline {1.3.7}Continuité}{16}{}%
-\contentsline {subsection}{\numberline {1.3.8}Limites de fonctions composées}{16}{}%
-\contentsline {subsection}{\numberline {1.3.9}Propriétés des fonctions continues}{18}{}%
-\contentsline {subsection}{\numberline {1.3.10}Limites infinies}{19}{}%
-\contentsline {subsection}{\numberline {1.3.11}Propriétés des limites infinies}{19}{}%
-\contentsline {subsection}{\numberline {1.3.12}Limites à l'infini}{19}{}%
-\contentsline {subsection}{\numberline {1.3.13}Asymptotes}{20}{}%
-\contentsline {subsection}{\numberline {1.3.14}Astuces de calcul}{20}{}%
-\contentsline {subsubsection}{Division euclidienne}{20}{}%
-\contentsline {subsubsection}{Règle de Bernouilli-L'Hospital}{20}{}%
-\contentsline {subsubsection}{Limites remarquables}{21}{}%
-\contentsline {section}{\numberline {1.4}Dérivées}{22}{}%
-\contentsline {subsection}{\numberline {1.4.1}Tangeante (dérivée) en $x_0$}{22}{}%
-\contentsline {subsection}{\numberline {1.4.2}Nombre dérivé à gauche, à droite}{22}{}%
-\contentsline {subsection}{\numberline {1.4.3}Point anguleux, à tangeante verticale, de rebroussement}{23}{}%
-\contentsline {subsection}{\numberline {1.4.4}fonction dérivée}{23}{}%
-\contentsline {subsection}{\numberline {1.4.5}Dérivée d'ordre supérieur}{25}{}%
-\contentsline {subsection}{\numberline {1.4.6}Règle de Bernouilli-L'Hospital}{25}{}%
-\contentsline {subsection}{\numberline {1.4.7}Théorème de Rolle}{26}{}%
-\contentsline {subsection}{\numberline {1.4.8}Théorème des accroisements finis (TAF)}{26}{}%
-\contentsline {subsection}{\numberline {1.4.9}Polynôme de taylor}{26}{}%
-\contentsline {subsection}{\numberline {1.4.10}Développement limité}{26}{}%
-\contentsline {subsection}{\numberline {1.4.11}Règles de dérivation}{27}{}%
-\contentsline {subsection}{\numberline {1.4.12}Remarques}{27}{}%
-\contentsline {section}{\numberline {1.5}Intégrales}{29}{}%
-\contentsline {subsection}{\numberline {1.5.1}Introduction}{29}{}%
-\contentsline {subsubsection}{Somme de Riemann supérieure}{29}{}%
-\contentsline {subsubsection}{Somme de Riemann inférieure}{29}{}%
-\contentsline {subsubsection}{Intégrale Bornée}{29}{}%
-\contentsline {subsection}{\numberline {1.5.2}Primitives d'une fonction}{30}{}%
-\contentsline {subsubsection}{Théorème fondamental du calcul intégral}{30}{}%
-\contentsline {subsection}{\numberline {1.5.3}Intégration par parties}{30}{}%
-\contentsline {subsection}{\numberline {1.5.4}Changement de variable}{31}{}%
-\contentsline {subsubsection}{Règles de Bioche}{31}{}%
-\contentsline {subsection}{\numberline {1.5.5}Primitives de fonctions élémentaires}{32}{}%
-\contentsline {subsection}{\numberline {1.5.6}Primitives de fonctions particulières}{32}{}%
-\contentsline {subsection}{\numberline {1.5.7}Règles d'intégration}{33}{}%
-\contentsline {section}{\numberline {1.6}Applications des dérivées}{34}{}%
-\contentsline {section}{\numberline {1.7}Equations Différentielles}{35}{}%
+\contentsline {subsection}{\numberline {1.3.5}Continuité}{16}{}%
+\contentsline {subsection}{\numberline {1.3.6}Limites de fonctions composées}{16}{}%
+\contentsline {subsection}{\numberline {1.3.7}Propriétés des fonctions continues}{17}{}%
+\contentsline {subsection}{\numberline {1.3.8}Limites infinies}{18}{}%
+\contentsline {subsection}{\numberline {1.3.9}Propriétés des limites infinies}{18}{}%
+\contentsline {subsection}{\numberline {1.3.10}Limites à l'infini}{18}{}%
+\contentsline {subsection}{\numberline {1.3.11}Asymptotes}{19}{}%
+\contentsline {subsection}{\numberline {1.3.12}Astuces de calcul}{19}{}%
+\contentsline {subsubsection}{Division euclidienne}{19}{}%
+\contentsline {subsubsection}{Règle de Bernouilli-L'Hospital}{19}{}%
+\contentsline {subsubsection}{Limites remarquables}{20}{}%
+\contentsline {section}{\numberline {1.4}Séries}{21}{}%
+\contentsline {subsection}{\numberline {1.4.1}Séries numériques}{21}{}%
+\contentsline {subsection}{\numberline {1.4.2}Critères de convergence}{21}{}%
+\contentsline {subsubsection}{Critère du quotient}{21}{}%
+\contentsline {subsubsection}{Critère de d'Alembert}{22}{}%
+\contentsline {subsubsection}{Critère de Cauchy}{22}{}%
+\contentsline {subsubsection}{Critère des séries alternées}{22}{}%
+\contentsline {section}{\numberline {1.5}Dérivées}{23}{}%
+\contentsline {subsection}{\numberline {1.5.1}Tangeante (dérivée) en $x_0$}{23}{}%
+\contentsline {subsection}{\numberline {1.5.2}Nombre dérivé à gauche, à droite}{23}{}%
+\contentsline {subsection}{\numberline {1.5.3}Point anguleux, à tangeante verticale, de rebroussement}{24}{}%
+\contentsline {subsection}{\numberline {1.5.4}fonction dérivée}{24}{}%
+\contentsline {subsection}{\numberline {1.5.5}Dérivée d'ordre supérieur}{26}{}%
+\contentsline {subsection}{\numberline {1.5.6}Règle de Bernouilli-L'Hospital}{26}{}%
+\contentsline {subsection}{\numberline {1.5.7}Théorème de Rolle}{27}{}%
+\contentsline {subsection}{\numberline {1.5.8}Théorème des accroisements finis (TAF)}{27}{}%
+\contentsline {subsection}{\numberline {1.5.9}Polynôme de taylor}{27}{}%
+\contentsline {subsection}{\numberline {1.5.10}Développement limité}{27}{}%
+\contentsline {subsection}{\numberline {1.5.11}Règles de dérivation}{28}{}%
+\contentsline {subsection}{\numberline {1.5.12}Remarques}{28}{}%
+\contentsline {section}{\numberline {1.6}Intégrales}{30}{}%
+\contentsline {subsection}{\numberline {1.6.1}Introduction}{30}{}%
+\contentsline {subsubsection}{Somme de Riemann supérieure}{30}{}%
+\contentsline {subsubsection}{Somme de Riemann inférieure}{30}{}%
+\contentsline {subsubsection}{Intégrale Bornée}{30}{}%
+\contentsline {subsection}{\numberline {1.6.2}Primitives d'une fonction}{31}{}%
+\contentsline {subsubsection}{Théorème fondamental du calcul intégral}{31}{}%
+\contentsline {subsection}{\numberline {1.6.3}Intégration par parties}{31}{}%
+\contentsline {subsection}{\numberline {1.6.4}Changement de variable}{32}{}%
+\contentsline {subsubsection}{Règles de Bioche}{32}{}%
+\contentsline {subsection}{\numberline {1.6.5}Primitives de fonctions élémentaires}{33}{}%
+\contentsline {subsection}{\numberline {1.6.6}Primitives de fonctions particulières}{33}{}%
+\contentsline {subsection}{\numberline {1.6.7}Règles d'intégration}{34}{}%
+\contentsline {section}{\numberline {1.7}Applications des dérivées}{35}{}%
+\contentsline {section}{\numberline {1.8}Equations Différentielles}{36}{}%
 \contentsline {chapter}{\numberline {2}Algèbre Linéaire}{37}{}%
 \contentsline {section}{\numberline {2.1}Equations linéaires en algèbre linéaire}{37}{}%
 \contentsline {subsection}{\numberline {2.1.1}Systèmes d'équations linéaires}{37}{}%

@@ -5,6 +5,7 @@
 \usepackage{amsthm}
 \usepackage{mathtools}
 \usepackage{url}
+\theoremstyle{definition}
 \newtheorem*{definition}{Définition}
 \newtheorem*{remarque}{Remarque}
 \newtheorem*{theoreme}{Théorème}
@@ -321,10 +322,6 @@ Soit $f$ et $g$ deux fonctions admettant une limitent en $a$ et soit $\lambda \i
         \hline
     \end{tabular}
 \end{center}
-\subsection{Critère de d'Alembert}
-TODO
-\subsection{Critère de Cauchy}
-TODO + vérifier le nom
 \subsection{Continuité}
 Une fonction $f$ est \textbf{continue} en $a$ si elle est définie sur une intervalle ouvert contenant $a$ et si $\lim_{x \to a}f(x) = f(a)$\\
 Une fonction $f$ est \textbf{continue} en $a$ si elle est continue en tout point de l'intervalle $I$.\\
@@ -470,7 +467,48 @@ Fonctions Trigonométriques :&Fonctions Logarithmiques :\\
     $\lim_{x \to 0} \frac{tan(x)}{x} = 1$&$\lim_{x \to 0} (1+ax)^\frac{1}{x} = e^a$\\
 \hline
 \end{tabular}
+\newpage
+\section{Séries}
+\subsection{Séries numériques}
+Soit $(a_n)$ une suite d'éléments de $\mathbb{R}$. Toute expression de la forme :
+\begin{center}
+    $$\sum_{n=0}^{+\infty}a_n$$
+\end{center}
+est appellée une \textbf{série numérique}.
+\begin{definition}
+    On dit de la série $\sum_{n=0}^{+\infty}a_n$ qu'elle est \textbf{convergente} si la suite des \textbf{sommes partielles :}
+        $$(S_p=\sum_{n=0}^{+\infty}a_n)$$
+    converge. La limite de cette suite, lorsqu'elle existe, est appelée la \textbf{somme} de la série, et on pose, par définition :
+        $$\sum_{n=0}^{+\infty}a_n = \lim_{p \to \infty} S_p$$
+    Lorsque la suite $S_p$ diverge, on dit que la série $\sum_{n=0}^{+\infty}a_n$ \textbf{diverge}. Dans le cas particulier ou $\lim_{p \to \infty} S_p = +\infty$ (resp. $-\infty$), on écrit: $\sum_{n=0}^{+\infty}a_n=+\infty$  (resp. $-\infty$).
+\end{definition}
+\begin{definition}
+    On dit de la série $\sum_{n=0}^{+\infty}a_n$ qu'elle est \textbf{absolument convergente} si la série $\sum_{n=0}^{+\infty} \lvert a_n \rvert$ est convergente.
+\end{definition}
 
+\subsection{Critères de convergence}
+\subsubsection{Critère du quotient}
+Soient $(a_n)$ et $(b_n)$ deux suites de nombres réels positifs telles que 
+$$\lim_{n \to \infty} \frac{a_n}{b_n} = l \in \mathbb{R}^{*}_{+}$$
+alors deux cas se présentent :\\
+Soit $\sum_{n=0}^{+\infty}a_n$ et $\sum_{n=0}^{+\infty}b_n$ sont convergentes, soit les deux divergent.
+\subsubsection{Critère de d'Alembert}
+Soit $(a_n)$ une suite d'éléments de $\mathbb{R}$ pour laquelle
+$$\lim_{n \to \infty} \lvert \frac{a_{n+1}}{a_n} \rvert = \rho$$
+Alors, si $\rho < 1$, la série $\sum_{n=0}^{+\infty}a_n$ est absolument convergente, et diverge si $\rho >1$. 
+\subsubsection{Critère de Cauchy}
+Soit $(a_n)$ une suite d'éléments de $\mathbb{R}$ et 
+$$\lim_{n \to \infty} \sqrt[n]{\lvert a_n \rvert} = l = \rho$$
+Alors, si $\rho <1$, la série $\sum_{n=0}^{+\infty}a_n$ est absolument convergente, et diverge si $\rho > 1$.
+\subsubsection{Critère des séries alternées}
+Soit $(a_n)$ une suite d'éléments de $\mathbb{R}$ vérigiant les trois propriétés suivantes :\\
+\begin{itemize}
+    \item $\forall n \in \mathbb{N} : a_n * a_{n+1} \leq 0$
+    \item $\forall n \in \mathbb{N} : \lvert a_{n+1} \rvert \leq \lvert a_n \rvert$
+    \item $\lim_{n \to \infty} a_n = 0$
+\end{itemize}
+Alors, la série $\sum_{n=0}^{+\infty}a_n$ converge. De plus, pour tout entier $p \geq 0$ :
+$$\lvert \ \sum_{n=0}^{+\infty}a_n \rvert \leq \lvert a_p \rvert$$
 
 \newpage
 \section{Dérivées}
